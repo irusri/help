@@ -22,7 +22,7 @@ docker run --rm -i -t -p "80:80" -p "3308:3306" -v ${PWD}/genie:/app -v ${PWD}/m
 cd genie 
 ```
 
-When we need to commit changes, please go to `cd docker4geniesys/geniesys` folder. Never commit from `docker4geniesys` folder. Because it will add genie as a submodule. Incase you mistakenly pushed from `docker4geniesys` folder, please `cd docker4geniesys` and `git rm genie`. You can access MySQL using `mysql -u admin -pmypass -h localhost -P 3308` or using [phpMyAdmin](http://localhost/phpmyadmin). Some useful docker commands are as follows.
+ You can access MySQL database using `mysql -u admin -pmypass -h localhost -P 3308` or using [phpMyAdmin](http://localhost/phpmyadmin). Some useful docker commands are as follows. As you may noticed here `admin` is the default MySQL username and `mypass` is the default  password. 
 
 ```text
 # Must be run first because images are attached to containers
