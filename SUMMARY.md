@@ -2,7 +2,8 @@
 
 * [Getting Started](README.md)
 * [Requirements](started.md)
-* [Installation & Updates](installation.md)
+* [Download](download.md)
+* [Install](installation.md)
 
 ## For Administrators
 
