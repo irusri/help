@@ -9,7 +9,7 @@
 
 ## For Administrators
 
-* [Untitled](for-administrators/untitled.md)
+* [Plugin architecture](for-administrators/untitled.md)
 
 ## For Users
 

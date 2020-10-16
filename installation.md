@@ -49,21 +49,21 @@ docker attach 890fa15eeef6126b668f4b0fcb7a38b33eaff0
 {% tab title="With Apache web server" %}
 [MAMP](https://www.mamp.info/) is a solution stack composed of [Apache](https://httpd.apache.org/), [MySQL](https://www.mysql.com/) and [PHP](https://www.php.net/) used together to develop and run dynamic web sites on computers.
 
-[![https://github.com/irusri/geniesys/blob/master/docs/images/mamp.png?raw=true](https://github.com/irusri/geniesys/blob/master/docs/images/mamp.png?raw=true)](http://www.mamp.info/en/downloads/)
+[![https://github.com/irusri/geniesys/blob/master/docs/images/mamp.png?raw=true](.gitbook/assets/mamp.png)](http://www.mamp.info/en/downloads/)
 
 Installing MAMP is just a matter of downloading the app from the MAMP website and running the installer. It will install a MAMP app in your Applications folder.
 
-[![https://github.com/irusri/geniesys/blob/master/docs/images/mamp-02.png?raw=true](https://github.com/irusri/geniesys/blob/master/docs/images/mamp-02.png?raw=true)](http://www.mamp.info/en/downloads/)
+[![https://github.com/irusri/geniesys/blob/master/docs/images/mamp-02.png?raw=true](.gitbook/assets/mamp-02.png)](http://www.mamp.info/en/downloads/)
 
 By starting the MAMP app you are also starting your Apache and MySQL server. You should now be able to reach your local server at `http://localhost:8888`.
 
 By default, MAMP uses port 8888 for Apache and port 8889 for MySQL. It is convenient to change the MySQL and Apache ports to 3306 and 80 respectively to use default MySQL and Apache ports.
 
-[![https://github.com/irusri/geniesys/blob/master/docs/images/mamp\_settings.png?raw=true](https://github.com/irusri/geniesys/blob/master/docs/images/mamp_settings.png?raw=true)](http://www.mamp.info/en/downloads/)
+[![https://github.com/irusri/geniesys/blob/master/docs/images/mamp\_settings.png?raw=true](.gitbook/assets/mamp_settings.png)](http://www.mamp.info/en/downloads/)
 
 **Download GenIE-Sys**
 
-[![https://github.com/irusri/geniesys/blob/master/docs/images/download.png?raw=true](https://github.com/irusri/geniesys/blob/master/docs/images/download.png?raw=true)](https://github.com/irusri/geniesys/archive/master.zip)
+[![https://github.com/irusri/geniesys/blob/master/docs/images/download.png?raw=true](.gitbook/assets/download.png)](https://github.com/irusri/geniesys/archive/master.zip)
 
 **Copy GenIE-Sys to MAMP Web server**
 
