@@ -11,10 +11,10 @@
 ## For Administrators
 
 * [Plugin architecture](for-administrators/untitled.md)
+* [Load novel genome](for-administrators/load-novel-genome.md)
 * [GeneList](for-administrators/genelist.md)
 * [How to create a plugin?](for-administrators/how-to-create-a-plugin.md)
 * [JBrowse](for-administrators/jbrowse.md)
-* [Load novel genome](for-administrators/load-novel-genome.md)
 
 ## For the users <a id="for-users"></a>
 
