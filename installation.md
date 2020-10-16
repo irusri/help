@@ -1,6 +1,6 @@
 # Installation
 
-There are two ways to install the GenIE-Sys
+GenIE-Sys can be installed in a few different methods as below.
 
 {% tabs %}
 {% tab title="Docker installation" %}
