@@ -2,8 +2,7 @@
 
 * [Getting Started](README.md)
 * [Requirements](started.md)
-* [Installation & Updates](installation/README.md)
-  * [Download the GenIE-Sys](installation/download-the-genie-sys.md)
+* [Installation & Updates](installation.md)
 
 ## For Administrators
 

@@ -1,4 +1,6 @@
-# Download the GenIE-Sys
+# Installation & Updates
+
+## Download the GenIE-Sys
 
 You can download the latest version of GenIE-Sys by using the official download link:
 
