@@ -4,6 +4,7 @@
 * [Requirements](started.md)
 * [Download](download.md)
 * [Installation](installation.md)
+* [Configuration files](configuration-files.md)
 
 ## For Administrators
 
