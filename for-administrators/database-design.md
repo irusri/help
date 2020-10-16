@@ -77,7 +77,7 @@ $GLOBALS["base_url"]='http://localhost:3000/';
 
 Following database diagram shows the initial genie database architecture. It will be used with basic geniesys tools such as GeneList, gene information pages, autocomlete search and BLAST.
 
-[![https://raw.githubusercontent.com/irusri/geniesys/master/docs/images/GenIE-CMS\_V4.png](https://raw.githubusercontent.com/irusri/geniesys/master/docs/images/GenIE-CMS_V4.png)](https://raw.githubusercontent.com/irusri/geniesys/master/docs/images/GenIE-CMS_V4.png)
+![Database Architecture of GenIE-Sys](../.gitbook/assets/genie-cms_v4.png)
 
 We have to to follow the [data loading](https://geniesys.readthedocs.io/en/latest/plugins/genelist.html) instructions in order to load data into the database tables.
 
