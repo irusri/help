@@ -46,7 +46,7 @@ docker attach 890fa15eeef6126b668f4b0fcb7a38b33eaff0
 ```
 {% endtab %}
 
-{% tab title="Apache Webserver" %}
+{% tab title="Install with Apache webserver" %}
 [MAMP](https://www.mamp.info/) is a solution stack composed of [Apache](https://httpd.apache.org/), [MySQL](https://www.mysql.com/) and [PHP](https://www.php.net/) used together to develop and run dynamic web sites on computers.
 
 ![Start page of the MAMP software](.gitbook/assets/mamp.png)
