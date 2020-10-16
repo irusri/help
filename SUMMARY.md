@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Getting Started](README.md)
-* [Getting Started](started.md)
+* [Requirements](started.md)
 
 ## For Administrators
 

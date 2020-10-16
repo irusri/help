@@ -12,18 +12,5 @@ In Addition, Researchers who are not specialized in bioinformatics or have limit
 
 Web resources such as [Phytozome\(Goodst et al., 2012\)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3245001/), [iPlant\( Goff. et al.,2011\)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3355756/), [TAIR \(Rhee et al., 2003\)](https://academic.oup.com/nar/article/31/1/224/2401365/The-Arabidopsis-Information-Resource-TAIR-a-model) and [PLAZA \(Proost et al., 2011\)](http://www.plantphysiol.org/content/158/2/590). These collections of tools and services have been sources of inspiration to be and have contributed my desire to develop the GenIE-Sys as well as, and importantly, developing an understanding of their limitations to end users. None of these resources allow users to easily setup their own web resource without submitting their data to the resource developers and making them publicly available.
 
-## Requirements
 
-**We recommended using Firefox or Google Chrome web browsers for testing of the GenIE-Sys. Please do not use Microsoft Edge or Internet Explorer.**
-
-To run GenIE-Sys we recommend your host supports the following
-
-* PHP version 5.4+
-* MySQL version 5.6+ or MariaDB version 10.0+
-
-To fulfil the above requirements, we have tested the GenIE-Sys under the following infrastructures.
-
-* MAMP/LAMP
-* Apache, PHP and MySQL standalone servers
-* Docker \(recommended for development purpose\)
 
