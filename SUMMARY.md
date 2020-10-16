@@ -11,7 +11,7 @@
 
 * [Plugin architecture](for-administrators/untitled.md)
 
-## For Users
+## For the users <a id="for-users"></a>
 
 * [Untitled](for-users/untitled.md)
 
