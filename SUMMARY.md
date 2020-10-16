@@ -6,6 +6,7 @@
 * [Installation](installation.md)
 * [Configuration files](configuration-files.md)
 * [Troubleshooting](troubleshooting.md)
+* [Who uses GenIE-Sys](who-uses-genie-sys.md)
 
 ## For Administrators
 
