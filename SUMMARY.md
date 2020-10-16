@@ -18,4 +18,5 @@
 * [BLAST](for-users/blast.md)
 * [GBrowse](for-users/gbrowse.md)
 * [exImage](for-users/eximage.md)
+* [Sequence search](for-users/sequence-search.md)
 
