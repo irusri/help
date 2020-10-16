@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Administration](README.md)
+* [Admin Documentation](README.md)
 * [Getting Started](started.md)
 
 ## User documentation
