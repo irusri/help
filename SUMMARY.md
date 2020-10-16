@@ -5,5 +5,3 @@
 
 ## User documentation
 
-* [Untitled](user-documentation/getting_started.md.md)
-
