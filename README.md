@@ -1,7 +1,5 @@
 # Getting Started
 
-
-
 ## Overview of GenIE-Sys
 
 The Genome Integrative Explorer System \(GenIE-Sys\) is dedicative in-house system to facilitate external groups in setting up their own web resource for searching, visualizing, editing, sharing and reproducing their genomic and transcriptomic data while using project raw data\( `GFF3,FASTA,FASTQ`\) as an input.
