@@ -4,7 +4,7 @@
 
 You can download the latest version of GenIE-Sys by using the official download link:
 
-[![https://raw.githubusercontent.com/irusri/geniesys/master/docs/images/download.png](https://raw.githubusercontent.com/irusri/geniesys/master/docs/images/download.png)](https://github.com/irusri/geniesys/archive/master.zip)
+[![https://raw.githubusercontent.com/irusri/geniesys/master/docs/images/download.png](.gitbook/assets/download.png)](https://github.com/irusri/geniesys/archive/master.zip)
 
 Please note that the above link will only download the source code for the GenIE-Sys. If you need to download the parsing scripts, you need to download it [here](https://github.com/irusri/scripts/archive/master.zip). 
 
