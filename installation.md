@@ -1,4 +1,4 @@
-# Install
+# Installation
 
 There are two ways to install the GenIE-Sys
 
