@@ -11,6 +11,7 @@
 ## For Administrators
 
 * [Plugin architecture](for-administrators/untitled.md)
+* [GeneList](for-administrators/genelist.md)
 
 ## For the users <a id="for-users"></a>
 
