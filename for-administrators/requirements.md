@@ -2,6 +2,8 @@
 
 #### BLAST
 
+Here are the required Perl libraries for BLAST plugin.
+
 ```text
 This is perl 5, version 26, subversion 1 (v5.26.1) or higher
 
