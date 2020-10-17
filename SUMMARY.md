@@ -16,7 +16,7 @@
 * [GeneList](for-administrators/genelist.md)
 * [How to create a plugin?](for-administrators/how-to-create-a-plugin.md)
 * [JBrowse](for-administrators/jbrowse.md)
-* [Requirements](for-administrators/requirements.md)
+* [Required packages](for-administrators/requirements.md)
 
 ## For the users <a id="for-users"></a>
 
