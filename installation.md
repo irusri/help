@@ -73,5 +73,7 @@ That is basically what you need to do in order to install GenIE-Sys on your Macâ
 {% endtab %}
 {% endtabs %}
 
-
+{% hint style="info" %}
+When you use standalone web server installation with MAMP, you have to make sure to install and configure all required softwares and packages that are necessary for different plugins. Required packages listed here.
+{% endhint %}
 
