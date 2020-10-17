@@ -5,8 +5,11 @@
 Here are the required Perl packages for BLAST plugin.
 
 ```text
-This is perl 5, version 26, subversion 1 (v5.26.1) or higher
 
+# verison of the Perl
+Perl v5.26.1 or higher is needed
+
+# required packages
                Bio::Coordinate     *   "VERSION: 1.007001"
                 Bio::FeatureIO     *   "VERSION: 1.6.905"
        Bio::SearchIO::blastxml     *   "VERSION: 1.70"
