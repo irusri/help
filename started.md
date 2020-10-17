@@ -1,6 +1,6 @@
 # Requirements
 
-**We recommended using Firefox or Google Chrome web browsers for testing of the GenIE-Sys. Please do not use Microsoft Edge or Internet Explorer.**
+**We recommended using Firefox or Google Chrome web browsers for the testing of the GenIE-Sys. Please do not use Microsoft Edge or Internet Explorer.**
 
 {% hint style="info" %}
 You do not need to install any of the packages listed below when you use the Docker base installation for the GenIE-Sys.
