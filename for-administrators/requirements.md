@@ -1,6 +1,6 @@
 # Requirements
 
-#### [BLAST](../for-users/blast.md)
+#### BLAST
 
 ```text
 This is perl 5, version 26, subversion 1 (v5.26.1) or higher
@@ -12,11 +12,9 @@ This is perl 5, version 26, subversion 1 (v5.26.1) or higher
                        GD::SVG     *   "VERSION: 0.33"
 ```
 
-JBrowse
 
 
 
-exImage
 
 
 
