@@ -1,6 +1,6 @@
 # Configuration files
 
-We should update the settings file\(`geniesys/plugins/settings.php`\) right after the installtion. Especially the base URL depending on your webhost. For example:
+We should update the settings file\(`geniesys/plugins/settings.php`\) right after the installation. Especially the base URL depending on your webhost. For example:
 
 ```text
 /*Define your base url with trailing slash*/
