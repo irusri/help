@@ -4,7 +4,7 @@ exImage provides an intuitive pictographic view of expression data across a dive
 
 **Basic Usage**
 
-Users can either enter a gene ID in the input text area \(and hit the “GO” button\) or create a gene list which then will appear as an interactive list in the tool. exImage will shade the samples according to expression levels across multiple samples using either absolute or relative values. Relative values displays expression relative to the mean expression across all samples. The current view can be exported in various vector formats including publication ready PDFs or as expression values. The ‘Take a tour’ feature will provide a brief introduction to the basic functionalities in exImage.
+Users can either enter a gene ID in the input text area \(and hit the “GO” button\) or create a gene list which then will appear as an interactive list in the tool. exImage will shade the samples according to expression levels across multiple samples using either absolute or relative values. Relative values display expression relative to the mean expression across all samples. The current view can be exported in various vector formats including publication-ready PDFs or as expression values. The ‘Take a tour’ feature will provide a brief introduction to the basic functionalities in exImage.
 
 **Data**
 
