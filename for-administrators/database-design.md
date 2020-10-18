@@ -30,7 +30,7 @@ Once the above processes are completed, you can be able to access the newly crea
 
 ### Creating a new database using CMD
 
-Due to increasing number of species in PlantGenIE we use standard naming convention to easily identify and maintain the databases. For example: `[website name]_[species name]_[version number]`
+Due to the increasing number of species in PlantGenIE we use a standard naming convention to easily identify and maintain the databases. For example: `[website name]_[species name]_[version number]`
 
 [![https://github.com/irusri/geniesys/blob/master/docs/images/genie\_databases.png?raw=true](https://github.com/irusri/geniesys/blob/master/docs/images/genie_databases.png?raw=true)](https://raw.githubusercontent.com/irusri/geniesys/master/docs/images/genie_databases.png)
 
@@ -41,7 +41,7 @@ Log into the MySQL server and create a database.
 CREATE DATABASE new_database;
 ```
 
-You can download the empty database [here](https://raw.githubusercontent.com/irusri/scripts/master/dump.sql). Then load the database into the newly created database using following commands.
+You can download the empty database [here](https://raw.githubusercontent.com/irusri/scripts/master/dump.sql). Then load the database into the newly created database using the following commands.
 
 ```text
 git show HEAD~1:scripts/dump.sql > dump.sql
