@@ -1,7 +1,5 @@
 # Plugin architecture
 
-## Plugin architecture
-
 GenIE-Sys comes with a stable but yet simple-to-start plugin architecture. A plugin is a simple folder with a bunch of PHP files. This would be the simplest form:
 
 ```text
