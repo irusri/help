@@ -1,10 +1,10 @@
 # Troubleshooting
 
-GenIE-Sys can easily be installed without an effort. Unfortunately there is always space for problems due to multiple server setups and PHP versions. In this section, we try to answer most frequent issues in order to install GenIE-Sys as effortless as possible. Please send us an email if you still get trouble with installation or updates: `contact@geniecms.org`
+GenIE-Sys can easily be installed without an effort. Unfortunately, there is always space for problems due to multiple server setups and PHP versions. In this section, we try to answer the most frequent issues in order to install GenIE-Sys as effortless as possible. Please send us an email if you still get trouble with installation or updates: `contact@geniesys.org`
 
 ### Running from Command Line
 
-If you want to use PHP’s built-in server \(**not recommended**\), just use following lines to install GenIE-Sys. This is only for the initial test installation, in order to make a full functional website you have to install Webbserver package such as MAMP or LAMP.
+If you want to use PHP’s built-in server \(**not recommended**\), just use the following lines to install GenIE-Sys. This is only for the initial test installation, in order to make a fully functional website you have to install Webserver packages such as MAMP or LAMP.
 
 ```text
 git clone --recursive https://github.com/irusri/geniesys.git
@@ -16,7 +16,7 @@ You should now be able to access GenIE-Sys at: `http://localhost:3000` in your b
 
 ### Sub-folder permissions
 
-Web server runs in a different group than your user account on most servers. Following subfolder permissions will necessary to grant write access from GenIE-Sys.:
+The Webserver runs in a different group than your user account on most servers. Following subfolder permissions will necessary to grant write access from GenIE-Sys.:
 
 ```text
 chgrp -R www-data geniesys
@@ -27,11 +27,11 @@ Please make sure that the root folder is also readable by the webserver.
 
 ### Broken subpages
 
-Whenever you have problems\(can not open or a server error\) with subpages, you can try following steps.
+Whenever you have problems\(can not open or a server error\) with subpages, you can try the following steps.
 
 * Make sure that the .htaccess file is present inside GenIE-Sys folder.
 * mod\_rewrite should be enabled on your server.
-* You need to check the .htaccess. You can test this by adding some extra characters into your .htaccess. If this cause an “Internal Server Error”, the file gets loaded. Otherwise, you need to enable AllowOverride all in your Web server configuration file. An example of `GenIE-Sys/.htaccess` file shown below.
+* You need to check the .htaccess. You can test this by adding some extra characters into your .htaccess. If this cause an “Internal Server Error”, the file gets loaded. Otherwise, you need to enable AllowOverride all in your Web server configuration file. An example of `GenIE-Sys/.htaccess` the file is shown below.
 
 ```text
 RedirectMatch 403 ^.*/genie_files/
@@ -46,7 +46,7 @@ RewriteRule ^([^\.]+)$ %2?page=$1 [QSA,L]
 ErrorDocument 404 /notfound.html
 ```
 
-Please make sure that you are using the PHP 5.4 or higher.
+Please make sure that you are using PHP 5.4 or higher.
 
 ### Example input files
 
@@ -80,7 +80,7 @@ Potra000002g00006.5	DnaJ homolog subfamily
 
 **Manual updates**
 
-GenIE-Sys can be updated manually using latest ZIP file from [GitHub](https://github.com/irusri/geniesys/archive/master.zip). Please backup your older version of `geniesys/plugins/settings.php` and `geniesys/genie_files` before you do the latest update. First unzip the genie.zip file from your download folder and move into the Web Server server. Finally copy the `geniesys/plugins/settings.php` and `geniesys/genie_files` into latest version of GenIE-Sys.
+GenIE-Sys can be updated manually using the latest ZIP file from [GitHub](https://github.com/irusri/geniesys/archive/master.zip). Please backup your older version of `geniesys/plugins/settings.php` and `geniesys/genie_files` before you do the latest update. First, unzip the genie.zip file from your download folder and move into the Web Server server. Finally copy the `geniesys/plugins/settings.php` and `geniesys/genie_files` into the latest version of GenIE-Sys.
 
 **Updates using Git**
 
