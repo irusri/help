@@ -14,7 +14,7 @@ php -S localhost:3000
 
 You should now be able to access GenIE-Sys at: `http://localhost:3000` in your browser.
 
-### Subfolder permissions
+### Sub-folder permissions
 
 Web server runs in a different group than your user account on most servers. Following subfolder permissions will necessary to grant write access from GenIE-Sys.:
 
