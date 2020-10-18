@@ -1,7 +1,5 @@
 # Load novel genome
 
-## Load novel genome
-
 Here is a quick guide to describe how to load a novel genome into GenIE-Sys database.
 
 ### Download
