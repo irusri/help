@@ -19,7 +19,7 @@
 
 ## For the users <a id="for-users"></a>
 
-* [GeneList](for-users/untitled.md)
+* [GeneList](for-users/genelist.md)
 * [Gene Information Page](for-users/gene-information-page.md)
 * [BLAST](for-users/blast.md)
 * [GBrowse](for-users/gbrowse.md)
