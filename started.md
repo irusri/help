@@ -18,7 +18,7 @@ To fulfil the above requirements, we have tested the GenIE-Sys under the followi
 
 #### BLAST
 
-Here are the required Perl packages for BLAST plugin.
+Here are the required Perl packages for BLAST plugin. Manual installation of these plugins needed only when you use the MAMP based installation.
 
 ```text
 
