@@ -94,6 +94,10 @@ git submodule foreach --recursive git checkout master
 git submodule foreach --recursive git pull
 ```
 
+### Browse extentions
+
+There are  some browser extentions which can cause problems to the GenIE-Sys and plugins. We suggest you to test the GenIE-Sys with private mode browser \(incognito mode\) without any extentions or plugins installed.
+
 ### More problems?
 
 Please contact us:`contact@geniecms.org`
