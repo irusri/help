@@ -1,7 +1,7 @@
 # Configuration files
 
 {% hint style="info" %}
-You can skip  this section if you wish to install the GenIE-Sys using Graphical User Interface \(GUI\)
+You can skip  this section if you wish to install the GenIE-Sys using Graphical User Interface \(GUI\).
 {% endhint %}
 
 There are two configuration file associated with GenIE-Sys. One file for storing the database information \(`geniesys/plugins/settings.php`\) and other one  \(`geniesys/plugins/config.json`\)for storing the sequence files and blast indices.
