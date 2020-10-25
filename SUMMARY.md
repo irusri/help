@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Getting Started](README.md)
-* [Requirements](started.md)
+* [Requirements](requirements.md)
 * [Download](download.md)
 * [Installation](installation.md)
 * [Configuration files](configuration-files.md)
