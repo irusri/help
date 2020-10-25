@@ -12,6 +12,7 @@
 
 * [Plugin architecture](for-administrators/untitled.md)
 * [Database design](for-administrators/database-design.md)
+* [Input files](for-administrators/input-files.md)
 * [Load novel genome](for-administrators/load-novel-genome.md)
 * [GeneList](for-administrators/genelist.md)
 * [How to create a plugin?](for-administrators/how-to-create-a-plugin.md)
