@@ -4,8 +4,6 @@ We can install novel genome to GenIE-Sys using either Graphical User Interface \
 
 {% tabs %}
 {% tab title="Using Graphical User Interface \(GUI\)" %}
-
-
 Once you navigate to the Home page, you will see options to install the database. There are two options available, to begin with, database installation, as stated below.
 
 **1.\) install Arabidopsis thaliana model species**
