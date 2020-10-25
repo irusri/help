@@ -77,5 +77,5 @@ That is basically what you need to do in order to install GenIE-Sys on your Macâ
 When you use standalone web server installation with MAMP, you have to make sure to install and configure all required software and packages that are necessary for different plugins. Required packages listed [here](requirements.md).
 {% endhint %}
 
- All good, Next we need to customise our new website and load our genome into the database.
+ All good, next we need to customise our new website and load our genome into the database.
 
