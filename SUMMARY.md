@@ -5,8 +5,6 @@
 * [Download](download.md)
 * [Installation](installation.md)
 * [Customisation](customisation.md)
-* [Configuration files](configuration-files.md)
-* [Troubleshooting](troubleshooting.md)
 * [Who uses GenIE-Sys](who-uses-genie-sys.md)
 
 ## For Administrators
@@ -19,6 +17,8 @@
 * [GeneList](for-administrators/genelist.md)
 * [How to create a plugin?](for-administrators/how-to-create-a-plugin.md)
 * [JBrowse](for-administrators/jbrowse.md)
+* [Configuration files](for-administrators/configuration-files.md)
+* [Troubleshooting](for-administrators/troubleshooting.md)
 
 ## For the users <a id="for-users"></a>
 
