@@ -9,6 +9,7 @@
 * [Download](for-administrators/download.md)
 * [Installation](for-administrators/installation.md)
 * [Customisation](for-administrators/customisation.md)
+* [Loading data](for-administrators/loading-data.md)
 * [Database design](for-administrators/database-design.md)
 * [Input files](for-administrators/input-files.md)
 * [Plugin architecture](for-administrators/untitled.md)
