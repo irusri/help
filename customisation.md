@@ -1,6 +1,6 @@
 # Customisation
 
-Once you have completed the basic installation of the GenIE-Sys, you have to setup the database with your species of interest. We assume that you can see the up and running GenIE-Sys website on http://localhost/geniesys URL.
+Now you can be able to access the newly setup GenIE-Sys website by navigating to http://localhost/geniesys URL. Here we are going to customise the basic site settings.
 
 Basic installation of GenIE-Sys looks like following.
 
