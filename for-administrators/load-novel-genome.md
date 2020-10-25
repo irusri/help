@@ -1,6 +1,6 @@
 # Load novel genome
 
-
+We can use either Graphical User Interface \(GUI\) or Command Line Interface \(CLI\) for loading a novel genome into GenIE-Sys.
 
 {% tabs %}
 {% tab title="Using Graphical User Interface \(GUI\)" %}
