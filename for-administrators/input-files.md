@@ -45,5 +45,7 @@ CATTTATTCTGAAGTTCTTCTGCTTGATGATTTTATCCTTAGCCAAAAGGATTGGTGGTTTGAAGACACATCATATCAA
 AAAAGCTATCGCCTCGACGATGCTCTATTTCTATCCTTGTAGCACACATTTTGGCACTCAAAAAAGTATTTTTAGATGT
 ```
 
-3.\) gene description or transcript description should be tab delimited file. First column is the gene or transcript id and second column should be the description. The file should be names as gene\_description.tsv or transcript\_description.tsv.
+3.\) gene description or transcript description should be tab delimited file. First column is the gene or transcript ID and the second column should be the description. The file should be named as gene\_description.tsv or transcript\_description.tsv. Here is  an example of description file.
+
+
 
