@@ -4,7 +4,7 @@
 * [Requirements](requirements.md)
 * [Download](download.md)
 * [Installation](installation.md)
-* [Customisation](customisation.md)
+* [Customization](customisation.md)
 * [Configuration files](configuration-files.md)
 * [Troubleshooting](troubleshooting.md)
 * [Who uses GenIE-Sys](who-uses-genie-sys.md)
