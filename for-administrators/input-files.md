@@ -51,7 +51,9 @@ AAAAGCTATCGCCTCGACGATGCTCTATTTCTATCCTTGTAGCACACATTTTGGCACTCAAAAAAGTATTTTTAGATGT
 
 ```
 
-4.\) There are other types of annotation can be loaded into GenIE-Sys website. For example if you have kegg, pfam or go annotation. you can make them as tab delimited file followed by gene ID. Here are some of the common example of annotation files.
+4.\) There are other types of annotation can be loaded into GenIE-Sys website. For example if you have kegg, pfam or go annotation. you can make them as tab delimited file followed by gene ID. These files should be names as gene\_kegg.tsv, gene\_go.tsv and gene\_pfam.tsv.  Here are some of the common example of annotation files.
 
-5.\) 
+5.\) There is a space for loading best blast IDs into GenIE-Sys website. As an example if you have best BLAST hits from model plant species that can be loaded into the database. These files should be named as gene\_artha.tsv or gene\_potri\_tsv. Here are some example of best blast annotation files.
+
+
 
