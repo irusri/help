@@ -1,6 +1,8 @@
 # Configuration files
 
-We should update the settings file\(`geniesys/plugins/settings.php`\) right after the installation. Especially the base URL depending on your webhost. For example:
+We should update the settings file\(\) right after the installation. Especially the base URL depending on your webhost. For example:
+
+There are two configuration file associated with GenIE-Sys. One file for storing the database information \(`geniesys/plugins/settings.php`\) and other one  \(`geniesys/plugins/config.json`\)for storing the sequence files and blast indices.
 
 ```text
 /*Define your base url with trailing slash*/
@@ -10,4 +12,6 @@ OR
 
 $GLOBALS["base_url"]='http://localhost:[port number]';
 ```
+
+
 
