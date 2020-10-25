@@ -5,14 +5,14 @@ We can install novel genome to GenIE-Sys using either Graphical User Interface \
 {% tabs %}
 {% tab title="Using Graphical User Interface \(GUI\)" %}
 
-{% endtab %}
 
-{% tab title="Using Command Line Interface \(CLI\) " %}
 Once you navigate to the Home page, you will see options to install the database. There are two options available, to begin with, database installation, as stated below.
 
 **1.\) install Arabidopsis thaliana model species**
 
 **2.\) install an empty database.**
+
+\*\*\*\*
 
 [![https://github.com/irusri/geniesys/blob/master/docs/images/install\_db.png?raw=true](https://github.com/irusri/geniesys/blob/master/docs/images/install_db.png?raw=true)](https://raw.githubusercontent.com/irusri/geniesys/master/docs/images/install_db.png)
 
@@ -26,11 +26,15 @@ You need to type in the database name, MySQL host, username and password and the
 
 You need to type in the empty database name, MySQL host, username and password and then click the button “Load Data into the Database.”
 
+
+
 [![https://github.com/irusri/geniesys/blob/master/docs/images/install\_empty\_db.png?raw=true](https://github.com/irusri/geniesys/blob/master/docs/images/install_empty_db.png?raw=true)](https://raw.githubusercontent.com/irusri/geniesys/master/docs/images/install_empty_db.png)
 
 Once the above processes are completed, you can be able to access the newly created database in MySQL server.
+{% endtab %}
 
-### Creating a new database using CMD
+{% tab title="Using Command Line Interface \(CLI\) " %}
+Creating a new database using CMD
 
 Due to the increasing number of species in PlantGenIE we use a standard naming convention to easily identify and maintain the databases. For example: `[website name]_[species name]_[version number]`
 
