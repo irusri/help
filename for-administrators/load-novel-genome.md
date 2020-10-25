@@ -8,10 +8,6 @@ We can use either Graphical User Interface \(GUI\) or Command Line Interface \(C
 {% endtab %}
 
 {% tab title="Using Command Line Interface \(CLI\) " %}
-You can create a database using a graphical user interface or command line.
-
-### Creating a new database using GUI
-
 Once you navigate to the Home page, you will see options to install the database. There are two options available, to begin with, database installation, as stated below.
 
 **1.\) install Arabidopsis thaliana model species**
