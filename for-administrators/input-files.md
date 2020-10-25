@@ -47,5 +47,11 @@ AAAAGCTATCGCCTCGACGATGCTCTATTTCTATCCTTGTAGCACACATTTTGGCACTCAAAAAAGTATTTTTAGATGT
 
 3.\) gene description or transcript description should be tab delimited file. First column is the gene or transcript ID and the second column should be the description. The file should be named as gene\_description.tsv or transcript\_description.tsv. Here is  an example of description file.
 
+```text
 
+```
+
+4.\) There are other types of annotation can be loaded into GenIE-Sys website. For example if you have kegg, pfam or go annotation. you can make them as tab delimited file followed by gene ID. Here are some of the common example of annotation files.
+
+5.\) 
 
