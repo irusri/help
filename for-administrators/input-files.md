@@ -77,6 +77,26 @@ Potra000002g31577	conserved unknown protein
 
 5.\) There is a space for loading best blast IDs into GenIE-Sys website. As an example if you have best BLAST hits from model plant species that can be loaded into the database. These files should be named as gene\_artha.tsv or gene\_potri\_tsv. Here are some example of best blast annotation files.
 
+6.\) experiment.tsv
+
+```text
+experiment_id	experiment_name	experiment_value	experiment_table	visibility	default selection	tool_category
+1	All Affymetrics	affymetrics	expression	false	1	expression
+2	AspWood	aspwood	expression	true	0	expression
+3	P. tremula exatlas	exatlas	expression	true	0	expression
+4	Robinson et al 2014 (Sex)	sex	expression	true	0	expression
+5	P. trichocarpa Tissues	log	expression	false	0	expression
+6	AspLeaf	aspleaf	network	true	1	network
+7	AspWood	aspwood	network	true	0	network
+8	exAtlas	exatlas	network	true	0	network
+9	AspMetaNet	full	network	true	0	network
+10	SwAsp population (buds)	swasp	expression	true	0	expression
+11	AspLeaf	leaf_development	expression	true	0	expression
+12	Xylem and Leaf	xylem_leaf	expression	true	0	expression
+13	Senescence 1	senescence1	expression	false	0	expression
+14	Senescence 2	senescence2	expression	true	0	expression
+```
+
 Here you can find some of the examples of input files that we used with core species.
 
 
