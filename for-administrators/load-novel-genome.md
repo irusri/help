@@ -4,31 +4,21 @@ We can install novel genome to GenIE-Sys using either Graphical User Interface \
 
 {% tabs %}
 {% tab title="Using Graphical User Interface \(GUI\)" %}
-Once you navigate to the Home page, you will see options to install the database. There are two options available, to begin with, database installation, as stated below.
+Once you have placed all the required files into the data folder according the previous section. You will be able to see the annotation tab similar to the following screenshot.
 
-**1.\) install Arabidopsis thaliana model species**
+![Annotation tab in the admin panel of the GenIE-Sys website](../.gitbook/assets/screenshot-2020-10-26-at-14.51.16.png)
 
-**2.\) install an empty database.**
+If you miss some of the files described in the previous section, you will be able to see the tab similar to the following screenshot.
+
+![](../.gitbook/assets/screenshot-2020-10-26-at-14.48.09.png)
+
+Please make sure to upload the correct files and in format into the data folder. Once you have uploaded all required files, now it's time to parse them into the suitable formats right before loading into the database.
 
 \*\*\*\*
 
-[![https://github.com/irusri/geniesys/blob/master/docs/images/install\_db.png?raw=true](https://github.com/irusri/geniesys/blob/master/docs/images/install_db.png?raw=true)](https://raw.githubusercontent.com/irusri/geniesys/master/docs/images/install_db.png)
-
-**1.\) install Arabidopsis thaliana model species**
-
-You need to type in the database name, MySQL host, username and password and then click the button “Load Data into the Database.”
-
-[![https://github.com/irusri/geniesys/blob/master/docs/images/install\_atg\_db.png?raw=true](https://github.com/irusri/geniesys/blob/master/docs/images/install_atg_db.png?raw=true)](https://raw.githubusercontent.com/irusri/geniesys/master/docs/images/install_atg_db.png)
-
-**2.\) install an empty database.**
-
-You need to type in the empty database name, MySQL host, username and password and then click the button “Load Data into the Database.”
 
 
-
-[![https://github.com/irusri/geniesys/blob/master/docs/images/install\_empty\_db.png?raw=true](https://github.com/irusri/geniesys/blob/master/docs/images/install_empty_db.png?raw=true)](https://raw.githubusercontent.com/irusri/geniesys/master/docs/images/install_empty_db.png)
-
-Once the above processes are completed, you can be able to access the newly created database in MySQL server.
+\*\*\*\*
 {% endtab %}
 
 {% tab title="Using Command Line Interface \(CLI\) " %}
