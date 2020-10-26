@@ -1,3 +1,9 @@
+---
+description: >-
+  We have PlantGenIE core species as dummy data for testing GenIE-Sys. If you
+  use dummy data you do not need to upload new files into data directory.
+---
+
 # Loading dummy data
 
 Once you logged in to the GenIE-Sys web interface there is a tab called Database settings where we can find a tab similar to the following screenshot.
