@@ -149,7 +149,7 @@ load data local infile '$2' replace INTO TABLE $1 fields terminated by '\t' LINE
 EOFMYSQL
 ```
 
-Folowing two lines will load `transcript_info.txt` and `gene_info.txt` files into respective tables.
+Following two lines will load `transcript_info.txt` and `gene_info.txt` files into respective tables.
 
 ```text
 #Load above generated source file into gene_info table
@@ -159,7 +159,7 @@ Folowing two lines will load `transcript_info.txt` and `gene_info.txt` files int
 ./load_data.sh transcript_info transcript_info.txt
 ```
 
-Now we just need to fill the description column in gene\_info and transcript\_info tables. Therefore, we need files similar to folliwng example.
+Now we just need to fill the description column in gene\_info and transcript\_info tables. Therefore, we need files similar to following example.
 
 ```text
 #head potra_transcript_description.txt
