@@ -7,7 +7,7 @@ Once you logged in to the GenIE-Sys web interface there is a tab called Database
 When you did the GenIE-Sys installation using Docker image, the defaults username and password for MySQL server will be. 
 
 username : admin  
-password: mypass \(You can change this password using `docker-compose.yml.`\)
+password: mypass \(You can change this password using `docker-compose.yml file.`\)
 
 When you did your installation using MAMP server, their default username and password for MySQL server will be.
 
