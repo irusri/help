@@ -77,5 +77,9 @@ Potra000002g31577	conserved unknown protein
 
 5.\) There is a space for loading best blast IDs into GenIE-Sys website. As an example if you have best BLAST hits from model plant species that can be loaded into the database. These files should be named as gene\_artha.tsv or gene\_potri\_tsv. Here are some example of best blast annotation files.
 
+Here you can find some of the examples of input files that we used with core species.
+
+
+
 
 
