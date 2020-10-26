@@ -48,7 +48,7 @@ AAAAGCTATCGCCTCGACGATGCTCTATTTCTATCCTTGTAGCACACATTTTGGCACTCAAAAAAGTATTTTTAGATGT
 3.\) gene description or transcript description should be tab delimited file. First column is the gene or transcript ID and the second column should be the description. The file should be named as gene\_description.tsv or transcript\_description.tsv. Here is  an example of description file.
 
 ```text
-#head potra_transcript_description.txt
+#head transcript_description.tsv
 Potra000001g00001.1	Germin-like protein subfamily 1 member
 Potra000001g00002.1	Germin-like protein
 Potra000002g00003.1	uncharacterized protein LOC105113244
@@ -60,7 +60,7 @@ Potra000002g00005.5	Gibberellin 2-beta-dioxygenase
 Potra000002g00005.4	Gibberellin 2-beta-dioxygenase
 Potra000002g00006.5	DnaJ homolog subfamily
 
-#head potra_gene_description.txt
+#head gene_description.tsv
 Potra000001g00001	Germin-like protein subfamily 1 member
 Potra000001g00002	Germin-like protein
 Potra000002g00003	uncharacterized protein LOC105113244
