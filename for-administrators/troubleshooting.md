@@ -98,6 +98,22 @@ git submodule foreach --recursive git pull
 
 There are  some browser extentions which can cause problems to the GenIE-Sys and plugins. We suggest you to test the GenIE-Sys with private mode browser \(incognito mode\) without any extentions or plugins installed.
 
+### **Enable read/write for MySQL installed via MAMP \(on Mac\):**
+
+1. open "MAMP" use spotlight
+2. click "Stop Servers"
+3. edit ~/.my.cnf \(using vi or your favourite editor\) and add the following lines:
+
+   $ vi ~/.my.cnf
+
+> ```text
+> [mysqld_safe]
+> [mysqld]
+> secure_file_priv="/Users/username/"
+> ```
+
+1. click "Start Servers" \(in MAMP window\)
+
 ### More problems?
 
 Please contact us:`contact@geniecms.org`
