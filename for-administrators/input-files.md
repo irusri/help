@@ -136,7 +136,7 @@ AT1G01090	MA_10426096g0010
 AT1G01100	MA_10430200g0010
 ```
 
-6.\) experiment.tsv
+6.\) experiment.tsv and expression.tsv
 
 ```text
 experiment_id	experiment_name	experiment_value	experiment_table	visibility	default selection	tool_category
