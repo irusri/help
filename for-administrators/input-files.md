@@ -114,7 +114,26 @@ AT2G32280	PF06749-Protein of unknown function (DUF1218)
 5.\) There is a space for loading best blast IDs into GenIE-Sys website. As an example if you have best BLAST hits from model plant species that can be loaded into the database. These files should be named as gene\_artha.tsv or gene\_potri\_tsv. Here are some example of best blast annotation files.
 
 ```text
+#head gene_populus.tsv
+AT4G38320	Potri.014G006000;Potra003982g23967
+AT4G25700	Potri.017G145700;Potra000924g07477
+AT4G11300	Potri.003G132100;Potra000613g04660
+AT5G61090	Potri.014G040100;Potra003452g21711
+AT3G26570	Potri.008G186601;Potra002618g19588
+AT3G13950	Potri.006G223800;Potra001531g12715
+AT3G12170	Potri.006G056400;Potra002594g19498
+AT5G43175	Potri.002G119200;Potra002863g20178
 
+#head gene_spruce.tsv
+AT1G01010	MA_10426365g0010
+AT1G01030	MA_18923g0010
+AT1G01040	MA_10437243g0020
+AT1G01050	MA_93206g0010
+AT1G01060	MA_11267g0020
+AT1G01070	MA_13078g0020
+AT1G01080	MA_482994g0010
+AT1G01090	MA_10426096g0010
+AT1G01100	MA_10430200g0010
 ```
 
 6.\) experiment.tsv
