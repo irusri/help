@@ -45,7 +45,7 @@ CATTTATTCTGAAGTTCTTCTGCTTGATGATTTTATCCTTAGCCAAAAGGATTGGTGGTTTGAAGACACATCATATCAA
 AAAAGCTATCGCCTCGACGATGCTCTATTTCTATCCTTGTAGCACACATTTTGGCACTCAAAAAAGTATTTTTAGATGT
 ```
 
-3.\) gene description or transcript description should be tab delimited file. First column is the gene or transcript ID and the second column should be the description. The file should be named as gene\_description.tsv or transcript\_description.tsv. Here is  an example of description file.
+3.\) gene description or transcript description should be tab delimited file. First column is the gene or transcript ID and the second column should be the description. The file should be named as `gene_description.tsv` or`transcript_description.tsv.` Here is  an example of description file.
 
 ```text
 #head gene_description.tsv
@@ -74,7 +74,7 @@ AT1G09815.1	polymerase delta 4
 AT4G01690.1	Flavin containing amine oxidoreductase family
 ```
 
-4.\) There are other types of annotation can be loaded into GenIE-Sys website. For example if you have kegg, pfam or go annotation. you can make them as tab delimited file followed by gene ID. These files should be names as gene\_kegg.tsv, gene\_go.tsv and gene\_pfam.tsv.  Here are some of the common example of annotation files.
+4.\) There are other types of annotation can be loaded into GenIE-Sys website. For example if you have kegg, pfam or go annotation. you can make them as tab delimited file followed by gene ID. These files should be names as `gene_kegg.tsv, gene_go.tsv` and `gene_pfam.tsv`.  Here are some of the common example of annotation files.
 
 ```text
 #head gene_go.tsv
@@ -111,7 +111,7 @@ AT5G25130	PF00067-Cytochrome P450
 AT2G32280	PF06749-Protein of unknown function (DUF1218)
 ```
 
-5.\) There is a space for loading best blast IDs into GenIE-Sys website. As an example if you have best BLAST hits from model plant species that can be loaded into the database. These files should be named as gene\_arabidopsis.tsv, gene\_spruce.tsv or gene\_populus\_tsv. Here are some example of best blast annotation files.
+5.\) There is a space for loading best blast IDs into GenIE-Sys website. As an example if you have best BLAST hits from model plant species that can be loaded into the database. These files should be named as `gene_arabidopsis.tsv, gene_spruce.tsv` or `gene_populus_tsv.` Here are some example of best blast annotation files.
 
 ```text
 #head gene_populus.tsv
@@ -136,7 +136,7 @@ AT1G01090	MA_10426096g0010
 AT1G01100	MA_10430200g0010
 ```
 
-6.\) experiment.tsv and expression.tsv
+6.\) `experiment.tsv` and `expression.tsv`
 
 ```text
 experiment_id	experiment_name	experiment_value	experiment_table	visibility	default selection	tool_category
