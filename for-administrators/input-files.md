@@ -158,7 +158,7 @@ experiment_id	experiment_name	experiment_value	experiment_table	visibility	defau
 
 Here you can find some of the examples of input files that we used with core species.
 
-**Few inout files:**
+**Few inout files**
 
 ```text
 ftp://plantgenie.org/Data/GenIESys/input_files/arabidopsis_thaliana/gene.gff3
