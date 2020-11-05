@@ -11,7 +11,7 @@ transcript.fa
 protein.fa
 ```
 
-Here are some of the guidelines for prepare initial input files. 
+**Here are some of the guidelines for prepare initial input files.** 
 
 1.\) GFF3 files should follow the standard GFF3 specifications listed [here](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md). Here is the example of a GFF3 file that can be included inside the data file.
 
