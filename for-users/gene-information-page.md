@@ -12,5 +12,5 @@ The Gene Information page is the starting point to WebApollo and this will also 
 
 **Implementation**
 
-The Gene Information page uses JavaScript, PHP, MySQL, PostgreSQL, JQuery and d3js.
+The Gene Information page uses `JavaScript, PHP, MySQL, PostgreSQL, JQuery` and `d3js`.
 
