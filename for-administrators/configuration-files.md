@@ -1,6 +1,6 @@
 # Configuration files
 
-{% hint style="info" %}
+{% hint style="warning" %}
 You can skip  this section if you wish to install the GenIE-Sys using Graphical User Interface \(GUI\).
 {% endhint %}
 
