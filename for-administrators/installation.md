@@ -28,7 +28,7 @@ cd genie
 
 You can access MySQL database using `mysql -u admin -pmypass -h localhost -P 3308` or using [phpMyAdmin](http://localhost/phpmyadmin). Some useful docker commands are as follows. As you may noticed here `admin` is the default MySQL username and `mypass` is the default  password. You can change that in `docker-compose.yml file.`
 
-If you running on production environment, we recommend changing the password for MySQL user.
+If you running on production environment, we recommend changing the password for MySQL user. 
 {% endtab %}
 
 {% tab title="Install with Apache webserver" %}
