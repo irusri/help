@@ -12,7 +12,7 @@ If you miss some of the files described in the previous section, you will be abl
 
 ![](../.gitbook/assets/screenshot-2020-10-26-at-14.48.09.png)
 
-Please make sure to place the correct files into the data folder. Once you have uploaded all required files, now it's time to parse them into the suitable formats right before loading into the database. Please follow the order in the Annotation tab, first load data into the database and then create BLAST indices using Generate FASTA indices link.
+Please make sure to place the correct files into the data folder. Once you have placed all required files, now it's time to parse them into the suitable formats right before loading into the database. Please follow the order in the Annotation tab, first load data into the database and then create BLAST indices using Generate FASTA indices link.
 
 {% hint style="warning" %}
 If you have expression data please go to the next tab otherwise please log out from the site and see all your changes are displayed on the GeneList, BLAST and gene information pages.
