@@ -156,7 +156,7 @@ experiment_id	experiment_name	experiment_value	experiment_table	visibility	defau
 14	Senescence 2	senescence2	expression	true	0	expression
 ```
 
-Here you can find some of the examples of input files that we used with core species.
+Here you can find some of the examples of input files that we can use to generate GenIE-Sys website for PLantGenIE core species.
 
 **Few inout files**
 
