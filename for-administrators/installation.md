@@ -4,7 +4,7 @@ GenIE-Sys can be installed in a few different methods as below.
 
 {% tabs %}
 {% tab title="Docker installation" %}
-[Docker](https://www.docker.com/) is a software that provides the ability to package and run an application in an isolated environment called a container.
+[Docker](https://www.docker.com/) is a software that provides the ability to package and run an application in an isolated environment called a container. Open the terminal and use following commands.
 
 ```text
 # With docker-compose 
@@ -27,6 +27,8 @@ cd genie
 👍 Now you can access the GenIE-Sys on [http://localhost/geniesys/](http://localhost/geniesys/) URL.
 
 You can access MySQL database using `mysql -u admin -pmypass -h localhost -P 3308` or using [phpMyAdmin](http://localhost/phpmyadmin). Some useful docker commands are as follows. As you may noticed here `admin` is the default MySQL username and `mypass` is the default  password. You can change that in `docker-compose.yml file.`
+
+If you running on production environment, we recommend changing the password for MySQL user.
 {% endtab %}
 
 {% tab title="Install with Apache webserver" %}
