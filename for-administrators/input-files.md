@@ -136,6 +136,16 @@ AT1G01090	MA_10426096g0010
 AT1G01100	MA_10430200g0010
 ```
 
+Here you can find some of the examples of input files that we can use to generate GenIE-Sys website for PLantGenIE core species.
+
+**Few inout files**
+
+```text
+ftp://plantgenie.org/Data/GenIESys/input_files/arabidopsis_thaliana/gene.gff3
+ftp://plantgenie.org/Data/GenIESys/input_files/populus_tremula/gene.gff3
+ftp://plantgenie.org/Data/GenIESys/input_files/eucalyptus_grandis/gene.gff3
+```
+
 6.\) In the future we will be adding a function to upload expression data into GenIeSys. Then the corresponding expression values will be visualised in different sets of expression tools. This will need two files named as `experiment.tsv` and `expression.tsv` one for the experiments and other one for expressions respectively.
 
 ```text
@@ -154,16 +164,6 @@ experiment_id	experiment_name	experiment_value	experiment_table	visibility	defau
 12	Xylem and Leaf	xylem_leaf	expression	true	0	expression
 13	Senescence 1	senescence1	expression	false	0	expression
 14	Senescence 2	senescence2	expression	true	0	expression
-```
-
-Here you can find some of the examples of input files that we can use to generate GenIE-Sys website for PLantGenIE core species.
-
-**Few inout files**
-
-```text
-ftp://plantgenie.org/Data/GenIESys/input_files/arabidopsis_thaliana/gene.gff3
-ftp://plantgenie.org/Data/GenIESys/input_files/populus_tremula/gene.gff3
-ftp://plantgenie.org/Data/GenIESys/input_files/eucalyptus_grandis/gene.gff3
 ```
 
 
