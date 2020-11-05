@@ -24,6 +24,6 @@ username: root
 password: root
 ```
 
-If you wish to load novel genome using different set of FASTA and  GFF3 files other than the core species, you need to place the required files into the data folder describe in the next section of this documentation.  
+If you wish to load novel genome using different set of FASTA and  GFF3 files other than the PlantGenIE core species \(_Populus tremula, Populus trichocarpa, Picea abies, Eucalyptus grandis and Arabidopsis thaliana_\) , you need to place the required files into the data folder describe in the next section of this documentation.  
 
 
