@@ -136,7 +136,7 @@ AT1G01090	MA_10426096g0010
 AT1G01100	MA_10430200g0010
 ```
 
-6.\) `experiment.tsv` and `expression.tsv`
+6.\) In the future we will be adding a function to upload expression data into GenIeSys. Then the corresponding expression values will be visualised in different sets of expression tools. This will need two files named as `experiment.tsv` and `expression.tsv` one for the experiments and other one for expressions respectively.
 
 ```text
 experiment_id	experiment_name	experiment_value	experiment_table	visibility	default selection	tool_category
