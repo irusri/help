@@ -111,7 +111,7 @@ AT5G25130	PF00067-Cytochrome P450
 AT2G32280	PF06749-Protein of unknown function (DUF1218)
 ```
 
-5.\) There is a space for loading best blast IDs into GenIE-Sys website. As an example if you have best BLAST hits from model plant species that can be loaded into the database. These files should be named as `gene_arabidopsis.tsv, gene_spruce.tsv` or `gene_populus_tsv.` Here are some example of best blast annotation files.
+5.\) There is a space for loading best blast IDs into GenIE-Sys website. As an example if you have best BLAST hits from model plant species that can be loaded into the database. These files should be named as `gene_arabidopsis.tsv, gene_spruce.tsv` or `gene_populus_tsv.` Here are some examples of the best blast annotation files.
 
 ```text
 #head gene_populus.tsv
