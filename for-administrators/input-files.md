@@ -13,7 +13,7 @@ protein.fa
 
 Here are some of the guidelines for prepare initial input files. 
 
-1.\) GFF3 files should follow the standard GFF3 specifications listed [here](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md) for [Generic Feature Format Version 3 \(GFF3\)](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md). Here is the example of GFF3 file that can be included inside the data file.
+1.\) GFF3 files should follow the standard GFF3 specifications listed [here](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md) for [Generic Feature Format Version 3 \(GFF3\)](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md). Here is the example of a GFF3 file that can be included inside the data file.
 
 ```text
 data $head gene.gff3 
@@ -29,7 +29,7 @@ Chr1    phytozome9_0    exon    4486    4605    .       +       .       ID=PAC:1
 Chr1    phytozome9_0    CDS     4486    4605    .       +       0       ID=PAC:19656964.CDS.3;Parent=PAC:19656964;pacid=19656964
 ```
 
-2.\) FASTA file should follow the standard FASTA format preferably a clear sequence ID without special characters. Here is en example of FASTA file.
+2.\) FASTA files should follow the standard FASTA format preferably a clear sequence ID without special characters. Here is an example of a FASTA file.
 
 ```text
 data $head genome.fa 
@@ -45,7 +45,7 @@ CATTTATTCTGAAGTTCTTCTGCTTGATGATTTTATCCTTAGCCAAAAGGATTGGTGGTTTGAAGACACATCATATCAA
 AAAAGCTATCGCCTCGACGATGCTCTATTTCTATCCTTGTAGCACACATTTTGGCACTCAAAAAAGTATTTTTAGATGT
 ```
 
-3.\) gene description or transcript description should be tab delimited file. First column is the gene ID for the `gene_description.tsv`  file and the transcript ID for the `transcript_description.tsv` file and the second column should be the description for gene or transcript respectively. The file should be named as `gene_description.tsv` or`transcript_description.tsv.` Following you can find an example of description file.
+3.\) gene description or transcript description should be tab delimited file. First column is the gene ID for the `gene_description.tsv`  file and the transcript ID for the `transcript_description.tsv` file and the second column should be the description for gene or transcript respectively. The file should be named as `gene_description.tsv` or`transcript_description.tsv.` Following you can find an example of a description file.
 
 ```text
 #head gene_description.tsv
@@ -74,7 +74,7 @@ AT1G09815.1	polymerase delta 4
 AT4G01690.1	Flavin containing amine oxidoreductase family
 ```
 
-4.\) There are other types of annotation can be loaded into GenIE-Sys website. For example if you have kegg, pfam or go annotation. you can make them as tab delimited file followed by gene ID. These files should be names as `gene_kegg.tsv, gene_go.tsv` and `gene_pfam.tsv`.  Here are some of the common example of annotation files.
+4.\) `GO`, `Kegg` and `Pfam` annotation can be loaded into the GenIE-Sys website. You can make them as tab delimited files. The first column should be the gene ID and the second column should be the `GO`, `Kegg` and `Pfam` ID and description followed by the `hypen` \(**-**\). If there are several descriptions associated with one gene id, you can use the `semicolon` \(**;**\) to separate the corresponding annotation ID and Description \(`ID1-Description1;ID2-Description2`\). These files should be named as `gene_kegg.tsv`, `gene_go.tsv` and `gene_pfam.tsv`. Here are some of the examples of annotation files.
 
 ```text
 #head gene_go.tsv
