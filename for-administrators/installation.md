@@ -27,23 +27,6 @@ cd genie
 👍 Now you can access the GenIE-Sys on [http://localhost/geniesys/](http://localhost/geniesys/) URL.
 
 You can access MySQL database using `mysql -u admin -pmypass -h localhost -P 3308` or using [phpMyAdmin](http://localhost/phpmyadmin). Some useful docker commands are as follows. As you may noticed here `admin` is the default MySQL username and `mypass` is the default  password. You can change that in `docker-compose.yml file.`
-
-For your convenience here we listed some of the useful Docker commands.
-
-```text
-# Must be run first because images are attached to containers
-docker rm -f $(docker ps -a -q)
-# Delete every Docker images
-docker rmi -f $(docker images -q)
-# To see docker process
-docker ps -l 
-# To see or remove all volumes
-docker volume ls/prune
-# To run bash inside the running docker container
-docker exec -it 890fa15eeef6126b668f4b0fcb7a38b33eaff0 /bin/bash
-or
-docker attach 890fa15eeef6126b668f4b0fcb7a38b33eaff0
-```
 {% endtab %}
 
 {% tab title="Install with Apache webserver" %}
