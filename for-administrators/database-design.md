@@ -1,6 +1,6 @@
 # Database design
 
-GenIE-Sys has its basic content stored in text files. MySQL database server is required to load the genomic data and integrate with GenIE-Sys plugins.
+MySQL database server is required to load the genomic data and integrate with GenIE-Sys plugins.
 
 **Loading tables**
 
