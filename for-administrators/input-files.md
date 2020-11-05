@@ -13,7 +13,7 @@ protein.fa
 
 Here are some of the guidelines for prepare initial input files. 
 
-1.\) GFF3 files should follow the standard GFF3 specification for [Generic Feature Format Version 3 \(GFF3\)](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md). Here is the example of GFF3 file that can be included inside the data file.
+1.\) GFF3 files should follow the standard GFF3 specifications listed [here](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md) for [Generic Feature Format Version 3 \(GFF3\)](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md). Here is the example of GFF3 file that can be included inside the data file.
 
 ```text
 data $head gene.gff3 
@@ -45,7 +45,7 @@ CATTTATTCTGAAGTTCTTCTGCTTGATGATTTTATCCTTAGCCAAAAGGATTGGTGGTTTGAAGACACATCATATCAA
 AAAAGCTATCGCCTCGACGATGCTCTATTTCTATCCTTGTAGCACACATTTTGGCACTCAAAAAAGTATTTTTAGATGT
 ```
 
-3.\) gene description or transcript description should be tab delimited file. First column is the gene or transcript ID and the second column should be the description. The file should be named as `gene_description.tsv` or`transcript_description.tsv.` Here is  an example of description file.
+3.\) gene description or transcript description should be tab delimited file. First column is the gene ID for the `gene_description.tsv`  file and the transcript ID for the `transcript_description.tsv` file and the second column should be the description for gene or transcript respectively. The file should be named as `gene_description.tsv` or`transcript_description.tsv.` Following you can find an example of description file.
 
 ```text
 #head gene_description.tsv
