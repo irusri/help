@@ -76,7 +76,7 @@ AT1G09815.1	polymerase delta 4
 AT4G01690.1	Flavin containing amine oxidoreductase family
 ```
 
-4.\) `GO`, `Kegg` and `Pfam` annotation can be loaded into the GenIE-Sys website. You can make them as tab delimited files. The first column should be the gene ID and the second column should be the `GO`, `Kegg` and `Pfam` ID and description followed by the `hypen` \(**-**\). If there are several descriptions associated with one gene id, you can use the `semicolon` \(**;**\) to separate the corresponding annotation ID and Description \(`ID1-Description1;ID2-Description2`\). These files should be named as `gene_kegg.tsv`, `gene_go.tsv` and `gene_pfam.tsv`. Here are some of the examples of annotation files.
+4.\) `GO`, `Kegg` and `Pfam` annotation can be loaded into the GenIE-Sys website. You can make them as tab delimited files. The first column should be the gene ID and the second column should be the `GO`, `Kegg` or `Pfam` . ID and description followed by the `hypen` \(**-**\). If there are several descriptions associated with one gene id, you can use the `semicolon` \(**;**\) to separate the corresponding annotation ID and Description \(`ID1-Description1;ID2-Description2`\). These files should be named as `gene_kegg.tsv`, `gene_go.tsv` and `gene_pfam.tsv`. Here are some of the examples of annotation files.
 
 ```text
 #head gene_go.tsv
