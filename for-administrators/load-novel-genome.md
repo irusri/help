@@ -1,10 +1,10 @@
 # Load novel genome
 
-We can install novel genome to GenIE-Sys using either Graphical User Interface \(GUI\) or Command Line Interface \(CLI\).
+We can install a novel genome to GenIE-Sys using either Graphical User Interface \(GUI\) or Command Line Interface \(CLI\).
 
 {% tabs %}
 {% tab title="Using Graphical User Interface \(GUI\)" %}
-Once you have placed all the required files into the data folder according the previous section. You will be able to see the annotation tab similar to the following screenshot.
+Once you have placed all the required files into the data folder according to the previous section \([Input files](https://geniesys.gitbook.io/geniesys/for-administrators/input-files)\). You will be able to see the annotation tab similar to the following screenshot.
 
 ![Annotation tab in the admin panel of the GenIE-Sys website](../.gitbook/assets/screenshot-2020-10-26-at-14.51.16.png)
 
