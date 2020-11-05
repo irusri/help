@@ -139,9 +139,7 @@ AT1G01100	MA_10430200g0010
 Here you can find some of the examples of input files that we can use to generate GenIE-Sys website for PLantGenIE core species.
 
 ```text
-ftp://plantgenie.org/Data/GenIESys/input_files/arabidopsis_thaliana/gene.gff3
-ftp://plantgenie.org/Data/GenIESys/input_files/populus_tremula/gene.gff3
-ftp://plantgenie.org/Data/GenIESys/input_files/eucalyptus_grandis/gene.gff3
+ftp://plantgenie.org/Data/GenIESys/input_files/
 ```
 
 {% hint style="warning" %}
