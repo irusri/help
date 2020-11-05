@@ -1,6 +1,6 @@
 # Loading genome files
 
-We can install a novel genome to GenIE-Sys using either Graphical User Interface \(GUI\) or Command Line Interface \(CLI\).
+We can install a genome to GenIE-Sys using either Graphical User Interface \(GUI\) or Command Line Interface \(CLI\).
 
 {% tabs %}
 {% tab title="Using Graphical User Interface \(GUI\)" %}
