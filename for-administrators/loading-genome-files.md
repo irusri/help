@@ -1,4 +1,4 @@
-# Load novel genome
+# Loading genome files
 
 We can install a novel genome to GenIE-Sys using either Graphical User Interface \(GUI\) or Command Line Interface \(CLI\).
 

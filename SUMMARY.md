@@ -11,7 +11,7 @@
 * [Customisation](for-administrators/customisation.md)
 * [Loading dummy data](for-administrators/loading-data.md)
 * [Input files](for-administrators/input-files.md)
-* [Load novel genome](for-administrators/load-novel-genome.md)
+* [Loading genome files](for-administrators/loading-genome-files.md)
 * [Database design](for-administrators/database-design.md)
 * [CLI use case](for-administrators/cli-use-case.md)
 * [GeneList](for-administrators/genelist.md)
