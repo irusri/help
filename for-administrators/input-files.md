@@ -1,6 +1,6 @@
 # Input files
 
-All the input files such as `FASTA`, `Generic Feature Format Version 3 (GFF3)` and `Tab-separated values (TSV)` files should be placed inside the data directory which is inside the geniesys folder.
+All the input files such as `FASTA`, `Generic Feature Format Version 3 (GFF3)` and `Tab-separated values (TSV)` files should be placed inside the data directory which is inside the geniesys folder. GFF3 and FASTA files are required to setup the database and other files are recommended but not mandatory.
 
 ```text
 $ls geniesys/data
