@@ -10,6 +10,9 @@ You do not need to install any of the software packages listed below when you us
 
 User should know how to open the terminal and installation of Docker software.
 
+Dokcer  
+Git
+
 To run GenIE-Sys we recommend your host supports the following
 
 * PHP version 5.2+
