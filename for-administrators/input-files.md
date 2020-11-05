@@ -1,6 +1,6 @@
 # Input files
 
-All the input files such as `FASTA`, `GFF3` and `Tab-separated values (TSV)` files should be placed inside the data directory.
+All the input files such as `FASTA`, `Generic Feature Format Version 3 (GFF3)` and `Tab-separated values (TSV)` files should be placed inside the data directory.
 
 ```text
 $ls data
@@ -13,7 +13,7 @@ protein.fa
 
 Here are some of the guidelines for prepare initial input files. 
 
-1.\) GFF3 files should follow the standard GFF3 specifications listed [here](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md) for [Generic Feature Format Version 3 \(GFF3\)](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md). Here is the example of a GFF3 file that can be included inside the data file.
+1.\) GFF3 files should follow the standard GFF3 specifications listed [here](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md). Here is the example of a GFF3 file that can be included inside the data file.
 
 ```text
 data $head gene.gff3 
