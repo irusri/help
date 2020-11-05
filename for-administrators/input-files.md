@@ -16,7 +16,7 @@ protein.fa
 1.\) `GFF3` files should follow the standard `GFF3` specifications listed [here](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md). Here is the example of a `GFF3` file that can be included inside the data file.
 
 ```text
-data $head gene.gff3 
+#data $head gene.gff3 
 ##gff-version 3
 Chr1    phytozome9_0    gene    3631    5899    .       +       .       ID=AT1G01010;Name=AT1G01010
 Chr1    phytozome9_0    mRNA    3631    5899    .       +       .       ID=PAC:19656964;Name=AT1G01010.1;pacid=19656964;longest=1;Parent=AT1G01010
@@ -32,7 +32,7 @@ Chr1    phytozome9_0    CDS     4486    4605    .       +       0       ID=PAC:1
 2.\) FASTA files should follow the standard FASTA format preferably a clear sequence ID without special characters. Here is an example of a FASTA file.
 
 ```text
-data $head genome.fa 
+#data $head genome.fa 
 >Chr1 
 CCCTAAACCCTAAACCCTAAACCCTAAACCTCTGAATCCTTAATCCCTAAATCCCTAAATCTTTAAATCCTACATCCAT
 GAATCCCTAAATACCTAATTCCCTAAACCCGAAACCGGTTTCTCTGGTTGAAAATCATTGTGTATATAATGATAATTTT
