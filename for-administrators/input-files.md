@@ -146,28 +146,6 @@ AT1G01100	MA_10430200g0010
 ftp://plantgenie.org/Data/GenIESys/input_files/
 ```
 
-{% hint style="warning" %}
-In the future we will be adding a function to upload expression data into GenIeSys. Then the corresponding expression values will be visualised in different sets of expression tools. This will need two files named as `experiment.tsv` and `expression.tsv` one for the experiments and other one for expressions respectively.
-{% endhint %}
-
-```text
-experiment_id	experiment_name	experiment_value	experiment_table	visibility	default selection	tool_category
-1	All Affymetrics	affymetrics	expression	false	1	expression
-2	AspWood	aspwood	expression	true	0	expression
-3	P. tremula exatlas	exatlas	expression	true	0	expression
-4	Robinson et al 2014 (Sex)	sex	expression	true	0	expression
-5	P. trichocarpa Tissues	log	expression	false	0	expression
-6	AspLeaf	aspleaf	network	true	1	network
-7	AspWood	aspwood	network	true	0	network
-8	exAtlas	exatlas	network	true	0	network
-9	AspMetaNet	full	network	true	0	network
-10	SwAsp population (buds)	swasp	expression	true	0	expression
-11	AspLeaf	leaf_development	expression	true	0	expression
-12	Xylem and Leaf	xylem_leaf	expression	true	0	expression
-13	Senescence 1	senescence1	expression	false	0	expression
-14	Senescence 2	senescence2	expression	true	0	expression
-```
-
 
 
 
