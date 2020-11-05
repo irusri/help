@@ -136,7 +136,7 @@ AT1G01090	MA_10426096g0010
 AT1G01100	MA_10430200g0010
 ```
 
-Here you can find some of the examples of input files that we can use to generate GenIE-Sys website for PLantGenIE core species.
+[Here](ftp://plantgenie.org/Data/GenIESys/input_files/) you can find some of the examples of input files that we can use to generate GenIE-Sys website for PLantGenIE core species.
 
 ```text
 ftp://plantgenie.org/Data/GenIESys/input_files/
