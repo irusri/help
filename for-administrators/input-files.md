@@ -2,8 +2,9 @@
 
 All the input files such as `FASTA`, `Generic Feature Format Version 3 (GFF3)` and `Tab-separated values (TSV)` files should be placed inside the data directory which is inside the geniesys folder. GFF3 and FASTA files are required to setup the database and other files are recommended but not mandatory.
 
+$`ls geniesys/data`
+
 ```text
-$ls geniesys/data
 gene.gff3
 genome.fa
 cds.fa
@@ -13,10 +14,12 @@ protein.fa
 
 **Here are some of the guidelines for prepare initial input files.** 
 
-1.\) `GFF3` files should follow the standard `GFF3` specifications listed [here](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md). Here is the example of a `GFF3` file that can be included inside the data file.
+1.\) `GFF3` files should follow the standard `GFF3` specifications listed [here](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md). Here is the example of a `GFF3` file that can be included inside the data file.  
+
+
+## data $head gene.gff3
 
 ```text
-#data $head gene.gff3 
 ##gff-version 3
 Chr1    phytozome9_0    gene    3631    5899    .       +       .       ID=AT1G01010;Name=AT1G01010
 Chr1    phytozome9_0    mRNA    3631    5899    .       +       .       ID=PAC:19656964;Name=AT1G01010.1;pacid=19656964;longest=1;Parent=AT1G01010
