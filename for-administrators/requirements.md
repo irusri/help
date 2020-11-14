@@ -29,7 +29,7 @@ Here are the required Perl packages for BLAST plugin. Manual installation of the
 
 ```text
 
-# verison of the Perl
+# version of the Perl
 Perl v5.2 or higher is needed
 
 # required packages
