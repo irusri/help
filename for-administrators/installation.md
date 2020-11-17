@@ -16,12 +16,7 @@ docker-compose up
                                                                               **OR**
 
 ```text
-# Without docker-compose 
-git clone https://github.com/irusri/docker4geniesys.git  
-cd docker4geniesys  
-docker build -t genie -f ./Dockerfile .  
-docker run --rm -i -t -p "80:80" -p "3308:3306" -v ${PWD}/genie:/app -v ${PWD}/mysql:/var/lib/mysql -e MYSQL_ADMIN_PASS="mypass" --name genie genie  
-cd genie 
+$ docker run --rm -i -t -p "80:80" -p "3308:3306" -v ${PWD}/genie:/app -v ${PWD}/mysql:/var/lib/mysql -e MYSQL_ADMIN_PASS="mypass" --name geniesys irusri/docker4geniesys
 ```
 
 👍 Now you can access the GenIE-Sys on [http://localhost/geniesys/](http://localhost/geniesys/) URL.
