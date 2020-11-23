@@ -29,7 +29,6 @@ Due to the increasing number of species in PlantGenIE we use a standard naming c
 Log into the MySQL server and create a database.
 
 ```text
-#Create a database:
 CREATE DATABASE new_database;
 ```
 
@@ -42,11 +41,15 @@ mysql -u newuser -p newpassword new_database < dump.sql
 
 Log into the MySQL server to create user and grant permissions.
 
-```text
-#Create MySQL user:
-CREATE USER newuser@'localhost' IDENTIFIED BY 'newpassword';
+`Create MySQL user`
 
-#User permissions:
+```text
+CREATE USER newuser@'localhost' IDENTIFIED BY 'newpassword';
+```
+
+`User permissions`
+
+```text
 GRANT SELECT ON new_database.* TO newuser@'localhost';
 GRANT INSERT,UPDATE,DELETE ON new_database.genebaskets TO newuser@'localhost';
 GRANT INSERT,UPDATE,DELETE ON new_database.defaultgenebaskets TO newuser@'localhost';
@@ -70,12 +73,12 @@ $GLOBALS["base_url"]='http://localhost:3000/';
 Let’s assume we need to integrate Populus tremula v2.0 genome into GenIE-System. First, we need to download the required files. The latest version of the GFF3 and FASTA files are available on [PlantGenIE FTP](ftp://plantgenie.org/Data/PopGenIE/Populus_tremula/).
 
 ```text
-$ curl -O ftp://plantgenie.org/Data/PopGenIE/Populus_tremula/v2.2/gff/Potra02_genes.gff.gz
-$ curl -O ftp://plantgenie.org/Data/PopGenIE/Populus_tremula/v2.2/fasta/Potra02_genome.fasta.gz
-$ gzip -d Potra02_genes.gff.gz
-$ gzip -d Potra02_genome.fasta.gz
+curl -O ftp://plantgenie.org/Data/PopGenIE/Populus_tremula/v2.2/gff/Potra02_genes.gff.gz
+curl -O ftp://plantgenie.org/Data/PopGenIE/Populus_tremula/v2.2/fasta/Potra02_genome.fasta.gz
+gzip -d Potra02_genes.gff.gz
+gzip -d Potra02_genome.fasta.gz
 
-$ awk '!/##/' Potra02_genes.gff  |head
+awk '!/##/' Potra02_genes.gff  |head
 chr1	maker	gene	8865	11259	.	-	.	ID=Potra2n1c1;Name=Potra2n1c1
 chr1	maker	mRNA	8865	10802	.	-	.	ID=Potra2n1c1.3;Parent=Potra2n1c1;Name=Potra2n1c1.3;_AED=0.39;_eAED=0.37;_QI=192|0.66|0.75|1|0|0|4|0|115
 chr1	maker	CDS	8865	9054	.	-	1	ID=Potra2n1c1.3:cds;Parent=Potra2n1c1.3
@@ -87,7 +90,7 @@ chr1	maker	exon	10622	10802	.	-	.	ID=Potra2n1c1.3:exon:299;Parent=Potra2n1c1.3
 chr1	maker	five_prime_UTR	10622	10802	.	-	.	ID=Potra2n1c1.3:five_prime_utr;Parent=Potra2n1c1.3
 chr1	maker	mRNA	8865	11259	.	-	.	ID=Potra2n1c1.1;Parent=Potra2n1c1;Name=Potra2n1c1.1;_AED=0.22;_eAED=0.21;_QI=896|0.66|0.75|1|0|0|4|0|115
 
-$ head Potra02_genome.fasta
+head Potra02_genome.fasta
 >chr1
 AGAGAGCTCTGTGGGTCATTACTGTCACAACTCCTAGCCAGCTTGAATAT
 TCCATATAGCACATATCCTGGATGGGAAAGTTTGGTTAATGTGTGCTATT
