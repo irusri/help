@@ -14,8 +14,7 @@ protein.fa
 
 **Here are some of the guidelines for prepare initial input files.** 
 
-1.\) `GFF3` files should follow the standard `GFF3` specifications listed [here](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md). Here is the example of a `GFF3` file that can be included inside the data file.  
-
+1.\) `GFF3` files should follow the standard `GFF3` specifications listed [here](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md). Here is the example of a `GFF3` file that can be included inside the data file.
 
 ## data $head gene.gff3
 
@@ -32,10 +31,11 @@ Chr1    phytozome9_0    exon    4486    4605    .       +       .       ID=PAC:1
 Chr1    phytozome9_0    CDS     4486    4605    .       +       0       ID=PAC:19656964.CDS.3;Parent=PAC:19656964;pacid=19656964
 ```
 
-2.\) FASTA files should follow the standard FASTA format preferably a clear sequence ID without special characters. Here is an example of a FASTA file.
+2.\) FASTA files should follow the standard FASTA format preferably a clear sequence ID without special characters. Here is an example of a FASTA file.  
+  
+`data $head genome.fa`
 
 ```text
-#data $head genome.fa 
 >Chr1 
 CCCTAAACCCTAAACCCTAAACCCTAAACCTCTGAATCCTTAATCCCTAAATCCCTAAATCTTTAAATCCTACATCCAT
 GAATCCCTAAATACCTAATTCCCTAAACCCGAAACCGGTTTCTCTGGTTGAAAATCATTGTGTATATAATGATAATTTT
@@ -50,8 +50,9 @@ AAAAGCTATCGCCTCGACGATGCTCTATTTCTATCCTTGTAGCACACATTTTGGCACTCAAAAAAGTATTTTTAGATGT
 
 3.\) gene description or transcript description should be tab delimited file. First column is the gene ID for the `gene_description.tsv`  file and the transcript ID for the `transcript_description.tsv` file and the second column should be the description for gene or transcript respectively. The file should be named as `gene_description.tsv` or`transcript_description.tsv.` Following you can find an example of a description file.
 
+`head gene_description.tsv`
+
 ```text
-#head gene_description.tsv
 AT3G11260	WUSCHEL related homeobox 5
 AT3G09140	hypothetical protein (DUF674)
 AT5G01070	RING/FYVE/PHD zinc finger superfamily protein
@@ -65,8 +66,10 @@ AT4G01690	Flavin containing amine oxidoreductase family
 AT3G23490	cyanase
 ```
 
+`head transcript_description.tsv`
+
 ```text
-#head transcript_description.tsv
+
 AT3G11260.1	WUSCHEL related homeobox 5
 AT3G09140.2	hypothetical protein (DUF674)
 AT5G01070.1	RING/FYVE/PHD zinc finger superfamily protein
