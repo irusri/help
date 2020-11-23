@@ -2,7 +2,7 @@
 
 All the input files such as `FASTA`, `Generic Feature Format Version 3 (GFF3)` and `Tab-separated values (TSV)` files should be placed inside the data directory which is inside the geniesys folder. GFF3 and FASTA files are required to setup the database and other files are recommended but not mandatory.
 
-$`ls geniesys/data`
+`ls geniesys/data`
 
 ```text
 gene.gff3
@@ -16,7 +16,7 @@ protein.fa
 
 1.\) `GFF3` files should follow the standard `GFF3` specifications listed [here](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md). Here is the example of a `GFF3` file that can be included inside the data file.
 
-## data $head gene.gff3
+`head gene.gff3`
 
 ```text
 ##gff-version 3
@@ -33,7 +33,7 @@ Chr1    phytozome9_0    CDS     4486    4605    .       +       0       ID=PAC:1
 
 2.\) FASTA files should follow the standard FASTA format preferably a clear sequence ID without special characters. Here is an example of a FASTA file.  
   
-`data $head genome.fa`
+`head genome.fa`
 
 ```text
 >Chr1 
@@ -121,8 +121,9 @@ AT2G32280	PF06749-Protein of unknown function (DUF1218)
 
 5.\) There is a space for loading best blast IDs into GenIE-Sys website. As an example if you have best BLAST hits from model plant species that can be loaded into the database. These files should be named as `gene_arabidopsis.tsv, gene_spruce.tsv` or `gene_populus_tsv.` Here are some examples of the best blast annotation files.
 
+`head gene_populus.tsv`
+
 ```text
-#head gene_populus.tsv
 AT4G38320	Potri.014G006000;Potra003982g23967
 AT4G25700	Potri.017G145700;Potra000924g07477
 AT4G11300	Potri.003G132100;Potra000613g04660
@@ -133,8 +134,9 @@ AT3G12170	Potri.006G056400;Potra002594g19498
 AT5G43175	Potri.002G119200;Potra002863g20178
 ```
 
+`head gene_spruce.tsv`
+
 ```text
-#head gene_spruce.tsv
 AT1G01010	MA_10426365g0010
 AT1G01030	MA_18923g0010
 AT1G01040	MA_10437243g0020
