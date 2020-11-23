@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Getting Started](README.md)
-* [Who uses GenIE-Sys](who-uses-genie-sys.md)
 
 ## For Administrators
 
@@ -28,4 +27,5 @@
 * [GBrowse](for-users/gbrowse.md)
 * [exImage](for-users/eximage.md)
 * [Sequence search](for-users/sequence-search.md)
+* [Who uses GenIE-Sys](for-users/who-uses-genie-sys.md)
 
