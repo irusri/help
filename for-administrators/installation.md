@@ -34,6 +34,10 @@ If you running on production environment, we recommend changing the password for
 {% endtab %}
 
 {% tab title="Install with Apache webserver" %}
+{% hint style="warning" %}
+When you use standalone web server installation with MAMP, you have to make sure to install and configure all required software and packages that are necessary for different plugins. Required packages listed [here](requirements.md).
+{% endhint %}
+
 [MAMP](https://www.mamp.info/) is a solution stack composed of [Apache](https://httpd.apache.org/), [MySQL](https://www.mysql.com/) and [PHP](https://www.php.net/) used together to develop and run dynamic web sites on computers.
 
 ![Start page of the MAMP software](../.gitbook/assets/mamp.png)
@@ -57,10 +61,6 @@ By default, MAMP uses port 8888 for Apache and port 8889 for MySQL. It is conven
 You will find the source of GenIE-Sys in your download folder. So you just need to Copy GenIE-Sys folder into the corresponding `~/Applications/MAMP/htdocs/` folder.
 
 That is basically what you need to do in order to install GenIE-Sys on your Mac’s local server. You should now be able to access it at: `http://localhost:[port number]/geniesys` in your browser. Now you can see the essential website up and running. However to configure it correctly please update the configuration file as described in the next section.
-
-{% hint style="success" %}
-When you use standalone web server installation with MAMP, you have to make sure to install and configure all required software and packages that are necessary for different plugins. Required packages listed [here](requirements.md).
-{% endhint %}
 {% endtab %}
 {% endtabs %}
 
