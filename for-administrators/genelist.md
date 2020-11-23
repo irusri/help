@@ -103,8 +103,9 @@ Potra000001	leafV2	mRNA	13567	14931	.	+	.	ID=Potra000001g00002.1;Parent=Potra000
 
 Use GFF3 file and generate source input file to load into gene\_info mysql table_._
 
-  
-__`awk '/gene/{split($9,a,"ID=");split(a[2],b,";");print b[1],$1,$4,$5,$7}' FS='\t' OFS='\t' input/Potra01-gene-mRNA-wo-intron.gff3 > input/gene_info.txt`
+```text
+awk '/gene/{split($9,a,"ID=");split(a[2],b,";");print b[1],$1,$4,$5,$7}' FS='\t' OFS='\t' input/Potra01-gene-mRNA-wo-intron.gff3 > input/gene_info.txt
+```
 
 ```text
 Potra000001g00001	Potra000001	9066	10255	-
