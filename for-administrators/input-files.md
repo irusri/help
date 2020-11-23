@@ -84,8 +84,9 @@ AT4G01690.1	Flavin containing amine oxidoreductase family
 
 4.\) `GO`, `Kegg` and `Pfam` annotation can be loaded into the GenIE-Sys website. You can make them as tab delimited files. The first column should be the gene ID and the second column should be the `GO`, `Kegg` or `Pfam` . ID and description separated by the hypen \(**-**\). If there are several descriptions associated with one gene id, you can use the semicolon \(**;**\) to separate the corresponding annotation ID and Description \(`ID1-Description1;ID2-Description2`\). These files should be named as `gene_kegg.tsv`, `gene_go.tsv` and `gene_pfam.tsv`. Here are some of the examples of annotation files.
 
+`head gene_go.tsv`
+
 ```text
-#head gene_go.tsv
 AT1G06190	GO:0006353-transcription termination, DNA-dependent
 AT1G06620	GO:0055114-oxidation-reduction process;GO:0016491-oxidoreductase activity
 AT2G46660	GO:0055114-oxidation-reduction process;GO:0020037-heme binding;GO:0016705-oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen;GO:0005506-iron ion binding
@@ -95,8 +96,12 @@ AT2G16040	GO:0046983-protein dimerization activity
 AT3G58440	GO:0005515-protein binding
 AT5G44790	GO:0046872-metal ion binding;GO:0030001-metal ion transport;GO:0000166-nucleotide binding
 AT2G34630	GO:0008299-isoprenoid biosynthetic process
+```
 
-#head gene_kegg.tsv
+`head gene_kegg.tsv`
+
+```text
+
 AT1G06620	-
 AT3G27910	-
 AT4G22890	-
@@ -108,8 +113,11 @@ AT1G43171	-
 AT5G25130	-
 AT2G32280	-
 AT3G15020	1.1.1.37-Malate dehydrogenase.
+```
 
-#head gene_pfam.tsv
+`head gene_pfam.tsv`
+
+```text
 AT1G06620	PF14226-non-haem dioxygenase in morphine synthesis N-terminal;PF03171-2OG-Fe(II) oxygenase superfamily
 AT3G27910	PF01344-Kelch motif
 AT2G34630	PF00348-Polyprenyl synthetase
