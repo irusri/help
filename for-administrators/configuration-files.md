@@ -63,15 +63,12 @@ Here is the brief explanation to the`geniesys/plugins/config.json`file that we u
 			"user_friendly_name":"Friendly username shows to the user"
 		}
 		]
-		
-		
 ```
 
 Here is the example of`geniesys/plugins/config.json`file that we use with GenIE-Sys.
 
 ```text
-
-	"selection_box":[{"height":420,"width":400}],	 
+"selection_box":[{"height":420,"width":400}],	 
 	"datasets":[
 		{
 			"number": 1,
