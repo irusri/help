@@ -50,8 +50,9 @@ Please make sure that you are using PHP 5.4 or higher.
 
 ### Example input files
 
+`head input/example.gff3`
+
 ```text
-#head  input/example.gff3
 Potra000001	leafV2	gene	9066	10255	.	-	.	ID=Potra000001g00001;Name=Potra000001g00001;potri=Potri.004G180000,Potri.004G180200
 Potra000001	leafV2	mRNA	9066	10255	.	-	.	ID=Potra000001g00001.1;Parent=Potra000001g00001;Name=Potra000001g00001;cdsMD5=71c5f03f2dd2ad2e0e00b15ebe21b14c;primary=TRUE
 Potra000001	leafV2	three_prime_UTR	9066	9291	.	-	.	ID=Potra000001g00001.1.3pUTR1;Parent=Potra000001g00001.1;Name=Potra000001g00001.1
@@ -63,7 +64,12 @@ Potra000001	leafV2	five_prime_UTR	10237	10255	.	-	.	ID=Potra000001g00001.1.5pUTR
 Potra000001	leafV2	gene	13567	14931	.	+	.	ID=Potra000001g00002;Name=Potra000001g00002;potri=Potri.004G179800,Potri.004G179900,Potri.004G180100
 Potra000001	leafV2	mRNA	13567	14931	.	+	.	ID=Potra000001g00002.1;Parent=Potra000001g00002;Name=Potra000001g00002;cdsMD5=df49ed7856591c4a62d602fef61c7e37;primary=TRUE
 
-#head annotation_file.txt
+
+```
+
+`head annotation_file.txt`
+
+```text
 Potra000001g00001.1	Germin-like protein subfamily 1 member
 Potra000001g00002.1	Germin-like protein
 Potra000002g00003.1	uncharacterized protein LOC105113244
