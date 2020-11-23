@@ -8,7 +8,7 @@ GenIE-Sys can be installed in a few different methods as below.
 
 Docker installation can be done in several ways.
 
-#### 1.\) Run with Play with Docker \(Quickest way to test the GenIE-Sys, it takes only few minutes\)
+#### 1.\) Run using Play with Docker \(Quickest way to test the GenIE-Sys, it takes only few minutes\)
 
 [![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/irusri/docker4geniesys/master/pwd-stack.yml)\*\*\*\*
 
