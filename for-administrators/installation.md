@@ -15,7 +15,7 @@ Docker installation can be done in several ways.
  **2.\) Run with build in Docker image \(Fastest way to run the GenIE-Sys locally or your own server\)**                                                                            
 
 ```text
-$ docker run --rm -i -t -p "80:80" -p "3308:3306" -v ${PWD}/genie:/app -v ${PWD}/mysql:/var/lib/mysql -e MYSQL_ADMIN_PASS="mypass" --name geniesys irusri/docker4geniesys
+docker run --rm -i -t -p "80:80" -p "3308:3306" -v ${PWD}/genie:/app -v ${PWD}/mysql:/var/lib/mysql -e MYSQL_ADMIN_PASS="mypass" --name geniesys irusri/docker4geniesys
 ```
 
 #### 3.\) Build image locally using Dockerfile and run \(This is quite slow since you have to build the image locally.\)
