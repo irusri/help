@@ -8,17 +8,20 @@ GenIE-Sys can be installed in a few different methods as below.
 
 Docker installation can be done in several ways.
 
-1.\) **Run using Play with Docker** \(The quickest way to test the GenIE-Sys, it takes only a few minutes\)
+1.\) **Run using** [**Play with Docker** ](https://labs.play-with-docker.com/)  
+The quickest way to test the GenIE-Sys, it takes only a few minutes
 
 [![Try in PWD](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/irusri/docker4geniesys/master/pwd-stack.yml)\*\*\*\*
 
- **2.\) Run with build in Docker image** \(The fastest way to run the GenIE-Sys locally or your own server\)                                                                            ****
+ **2.\) Run with** [**already built in Docker image** ](https://hub.docker.com/r/irusri/docker4geniesys)  
+The fastest way to run the GenIE-Sys locally or your own server                                                                           ****
 
 ```text
 docker run --rm -i -t -p "80:80" -p "3308:3306" -v ${PWD}/genie:/app -v ${PWD}/mysql:/var/lib/mysql -e MYSQL_ADMIN_PASS="mypass" --name geniesys irusri/docker4geniesys
 ```
 
-3.\) **Build image locally using Dockerfile and run** \(This is quite slow since you have to build the image locally\)
+3.\) **Build image locally using** [**Dockerfile**](https://github.com/irusri/docker4geniesys) **and run**  
+This is quite slow since you have to build the image locally
 
 ```text
 git clone https://github.com/irusri/docker4geniesys.git  
@@ -26,9 +29,9 @@ cd docker4geniesys
 docker-compose up
 ```
 
-👍 Now you can access the GenIE-Sys on [http://localhost/geniesys/](http://localhost/geniesys/) URL.
+👍 Now you can access the GenIE-Sys on `http://localhost/geniesys/` URL.
 
-You can access MySQL database using `mysql -u admin -pmypass -h localhost -P 3308` or using [phpMyAdmin](http://localhost/phpmyadmin). As you may noticed here `admin` is the default MySQL username and `mypass` is the default  password. You can change that in `docker-compose.yml file.`
+You can access MySQL database using `mysql -u admin -pmypass -h localhost -P 3308` or using `phpMyAdmin`. As you may noticed here `admin` is the default MySQL username and `mypass` is the default  password. You can change that in `docker-compose.yml file.`
 
 If you are running on a production environment, we recommend changing the password for MySQL user. 
 {% endtab %}
