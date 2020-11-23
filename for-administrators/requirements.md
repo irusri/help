@@ -5,7 +5,7 @@
 {% endhint %}
 
 {% hint style="warning" %}
-You do not need to install any of the software packages listed below when you use the Docker-based installation for the GenIE-Sys. This is only relevant for standalone Apache-based installation approach. 
+Manual installation of the following softwares and packages are not needed for the Docker based GenIE-Sys installation. Following softwares and packages are only needed when you do the standalone Apache based GenIE-Sys installation.
 {% endhint %}
 
 User should know how to open the terminal and installation of Docker and Git softwares.
