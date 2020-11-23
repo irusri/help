@@ -86,8 +86,9 @@ The following example will show you how to load basic information into the prima
 
 _Loading data into Primary tables_
 
+`head input/Potra01-gene-mRNA-wo-intron.gff3`
+
 ```text
-#head  input/Potra01-gene-mRNA-wo-intron.gff3
 Potra000001	leafV2	gene	9066	10255	.	-	.	ID=Potra000001g00001;Name=Potra000001g00001;potri=Potri.004G180000,Potri.004G180200
 Potra000001	leafV2	mRNA	9066	10255	.	-	.	ID=Potra000001g00001.1;Parent=Potra000001g00001;Name=Potra000001g00001;cdsMD5=71c5f03f2dd2ad2e0e00b15ebe21b14c;primary=TRUE
 Potra000001	leafV2	three_prime_UTR	9066	9291	.	-	.	ID=Potra000001g00001.1.3pUTR1;Parent=Potra000001g00001.1;Name=Potra000001g00001.1
@@ -98,11 +99,14 @@ Potra000001	leafV2	exon	10113	10255	.	-	.	ID=Potra000001g00001.1.exon1;Parent=Po
 Potra000001	leafV2	five_prime_UTR	10237	10255	.	-	.	ID=Potra000001g00001.1.5pUTR1;Parent=Potra000001g00001.1;Name=Potra000001g00001.1
 Potra000001	leafV2	gene	13567	14931	.	+	.	ID=Potra000001g00002;Name=Potra000001g00002;potri=Potri.004G179800,Potri.004G179900,Potri.004G180100
 Potra000001	leafV2	mRNA	13567	14931	.	+	.	ID=Potra000001g00002.1;Parent=Potra000001g00002;Name=Potra000001g00002;cdsMD5=df49ed7856591c4a62d602fef61c7e37;primary=TRUE
+```
 
-#Use GFF3 file and generate source input file to load into gene_info mysql table
-awk '/gene/{split($9,a,"ID=");split(a[2],b,";");print b[1],$1,$4,$5,$7}' FS='\t' OFS='\t' input/Potra01-gene-mRNA-wo-intron.gff3 > input/gene_info.txt
+Use GFF3 file and generate source input file to load into gene\_info mysql table_._
 
-#results file(gene_info.txt) looks like following
+  
+__`awk '/gene/{split($9,a,"ID=");split(a[2],b,";");print b[1],$1,$4,$5,$7}' FS='\t' OFS='\t' input/Potra01-gene-mRNA-wo-intron.gff3 > input/gene_info.txt`
+
+```text
 Potra000001g00001	Potra000001	9066	10255	-
 Potra000001g00002	Potra000001	13567	14931	+
 Potra000002g00003	Potra000002	8029	9534	+
@@ -114,10 +118,18 @@ Potra000002g31575	Potra000002	42835	43635	+
 Potra000002g31576	Potra000002	52539	53036	+
 Potra000002g31577	Potra000002	55010	55465	+
 
-#Use GFF3 and generate source input file to load into transcript_info mysql table
-awk '{if(g3=="gene"){split($9,a,"=");split(a[2],b,";");split(g9,ga,"=");split(ga[2],gb,";");print b[1]"\t"gb[1]"\tDesc\t"$1"\t"$7"\t"g4"\t"g5"\tPAC\tPEP\t"$4"\t"$5};g3=$3;g1=$1;g2=$2;g4=$4;g5=$5;g9=$9}' input/Potra01-gene-mRNA-wo-intron.gff3 > input/transcript_info.txt
 
-#results file(transcript_info.txt) looks like following
+```
+
+Use GFF3 and generate source input file to load into transcript\_info mysql table 
+
+```text
+awk '{if(g3=="gene"){split($9,a,"=");split(a[2],b,";");split(g9,ga,"=");split(ga[2],gb,";");print b[1]"\t"gb[1]"\tDesc\t"$1"\t"$7"\t"g4"\t"g5"\tPAC\tPEP\t"$4"\t"$5};g3=$3;g1=$1;g2=$2;g4=$4;g5=$5;g9=$9}' input/Potra01-gene-mRNA-wo-intron.gff3 > input/transcript_info.txt
+```
+
+results file\(transcript\_info.txt\) looks like following
+
+```text
 Potra000001g00001.1	Potra000001g00001	desc	Potra000001	-	9066	10255			9066	10255
 Potra000001g00002.1	Potra000001g00002	desc	Potra000001	+	13567	14931			13567	14931
 Potra000002g00003.1	Potra000002g00003	desc	Potra000002	+	6593	10325			6593	10325
