@@ -6,7 +6,7 @@ GenIE-Sys can be installed in a few different methods as below.
 {% tab title="Docker installation" %}
 [Docker](https://www.docker.com/) is a software that provides the ability to package and run an application in an isolated environment called a container. Install the Docker and run it before start the following steps. [Open the terminal ](https://www.ionos.com/help/email/troubleshooting-mail-basicmail-business/access-the-command-prompt-or-terminal/)and use following commands.
 
-Docker installation can be done in several ways.
+Docker installation can be tested or run in several ways.
 
 1.\) **Run using** [**Play with Docker** ](https://labs.play-with-docker.com/)  
 The quickest way to test the GenIE-Sys, it takes only a few minutes
