@@ -8,7 +8,7 @@ You can download the latest version of GenIE-Sys by using the official download 
 
 Please note that the above link will only download the source code for the GenIE-Sys. If you need to download the parsing scripts, you need to download it [here](https://github.com/irusri/scripts/archive/master.zip).
 
-If you prefer using the terminal please run to download both the GenIE-Sys and parsing scripts:
+If you prefer using the terminal please run to download both the GenIE-Sys and parsing scripts
 
 ```text
 git clone --recursive https://github.com/plantgenie/geniesys.git
