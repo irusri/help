@@ -16,7 +16,7 @@ git clone --recursive https://github.com/plantgenie/geniesys.git
 
 ## Folder structure
 
-Content of the GenIE-Sys will be listed here.
+Content of the GenIE-Sys will be listed here
 
 ```text
 ├── geniesys 
