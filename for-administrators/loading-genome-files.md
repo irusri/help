@@ -24,7 +24,7 @@ Creating a new database using CMD
 
 Due to the increasing number of species in PlantGenIE we use a standard naming convention to easily identify and maintain the databases. For example: `[website name]_[species name]_[version number]`
 
-[![https://github.com/irusri/geniesys/blob/master/docs/images/genie\_databases.png?raw=true](https://github.com/irusri/geniesys/blob/master/docs/images/genie_databases.png?raw=true)](https://raw.githubusercontent.com/irusri/geniesys/master/docs/images/genie_databases.png)
+![](../.gitbook/assets/genie-cms_v4.png)
 
 Log into the MySQL server and create a database.
 
