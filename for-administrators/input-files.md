@@ -164,7 +164,7 @@ ftp://plantgenie.org/Data/GenIESys/input_files/
 
 ### Input files for expression and network tables
 
-Following shows the example of expression file format that we use is the geniesys. `expression` value can be TPM or CPM.
+Following table shows the example of expression file format that we use is the geniesys. `expression` value can be TPM or CPM values.
 
 ```
 gene_id	sample_name	dataset	expression
@@ -182,7 +182,7 @@ Potra2c499s35830	Female mature leaf (Genotype 244)	sex	15.638645
 Potra2c499s35830	Male mature leaf (Genotype 303)	sex	5.584787
 ```
 
-Following shows the example of network file format that we use is the geniesys. i`rp_score,nc_score,nc_sdev` derived from the Seidr output.
+Following table shows the example of network file format that we use is the geniesys. i`rp_score,nc_score,nc_sdev` derived from the Seidr output.
 
 ```
 dataset	source	target	type	irp_score	nc_score	nc_sdev
