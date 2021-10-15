@@ -162,7 +162,7 @@ AT1G01100	MA_10430200g0010
 ftp://plantgenie.org/Data/GenIESys/input_files/
 ```
 
-Following shows the example of expression file format we use is the geniesys.
+Following shows the example of expression file format that we use is the geniesys.
 
 ```
 gene_id	sample_name	dataset	expression
@@ -180,7 +180,7 @@ Potra2c499s35830	Female mature leaf (Genotype 244)	sex	15.638645
 Potra2c499s35830	Male mature leaf (Genotype 303)	sex	5.584787
 ```
 
-Following shows the example of network file format we use is the geniesys.
+Following shows the example of network file format that we use is the geniesys.
 
 ```
 dataset	source	target	type	irp_score	nc_score	nc_sdev
