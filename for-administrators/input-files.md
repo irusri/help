@@ -167,19 +167,17 @@ ftp://plantgenie.org/Data/GenIESys/input_files/
 Following table shows the example of expression file format that we use is the geniesys. `expression` value can be TPM or CPM values.
 
 ```
-gene_id	sample_name	dataset	expression
-Potra2c499s35830	Female mature leaf (Genotype 202)	sex	11.485859
-Potra2c499s35830	Male mature leaf (Genotype 207)	sex	38.15796
-Potra2c499s35830	Female mature leaf (Genotype 213.1)	sex	5.70359
-Potra2c499s35830	Male mature leaf (Genotype 221)	sex	27.727529
-Potra2c499s35830	Female mature leaf (Genotype 226.1)	sex	4.554956
-Potra2c499s35830	Male mature leaf (Genotype 229.1)	sex	8.86191
-Potra2c499s35830	Male mature leaf (Genotype 229)	sex	9.736108
-Potra2c499s35830	Male mature leaf (Genotype 235)	sex	9.915396
-Potra2c499s35830	Female mature leaf (Genotype 236)	sex	0
-Potra2c499s35830	Female mature leaf (Genotype 239)	sex	11.865896
-Potra2c499s35830	Female mature leaf (Genotype 244)	sex	15.638645
-Potra2c499s35830	Male mature leaf (Genotype 303)	sex	5.584787
+gene_id	sample_name	dataset	sample_description	expression
+Potra2c499s35830	Female mature leaf (Genotype 202)	sex	Female mature leaf (Genotype 202)	11.485859
+Potra2c499s35830	Male mature leaf (Genotype 207)	sex	Male mature leaf (Genotype 207)	38.15796
+Potra2c499s35830	Female mature leaf (Genotype 213.1)	sex	Female mature leaf (Genotype 213.1)	5.70359
+Potra2c499s35830	Male mature leaf (Genotype 221)	sex	Male mature leaf (Genotype 221)	27.727529
+Potra2c499s35830	Female mature leaf (Genotype 226.1)	sex	Female mature leaf (Genotype 226.1)	4.554956
+Potra2c499s35830	Male mature leaf (Genotype 229.1)	sex	Male mature leaf (Genotype 229.1)	8.86191
+Potra2c499s35830	Male mature leaf (Genotype 229)	sex	Male mature leaf (Genotype 229)	9.736108
+Potra2c499s35830	Male mature leaf (Genotype 235)	sex	Male mature leaf (Genotype 235)	9.915396
+Potra2c499s35830	Female mature leaf (Genotype 236)	sex	Female mature leaf (Genotype 236)	0
+Potra2c499s35830	Female mature leaf (Genotype 239)	sex	Female mature leaf (Genotype 239)	11.865896
 ```
 
 Following table shows the example of network file format that we use is the geniesys. i`rp_score,nc_score,nc_sdev` derived from the Seidr output.
