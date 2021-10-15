@@ -162,7 +162,7 @@ AT1G01100	MA_10430200g0010
 ftp://plantgenie.org/Data/GenIESys/input_files/
 ```
 
-Following shows the example of expression file format that we use is the geniesys.
+Following shows the example of expression file format that we use is the geniesys. expression value can be TPM or CPMs.
 
 ```
 gene_id	sample_name	dataset	expression
